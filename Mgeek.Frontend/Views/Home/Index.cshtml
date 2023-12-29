@@ -1,0 +1,48 @@
+﻿@model List<Mgeek.Frontend.Models.ProductAPI.ProductDto>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-xl-2 col-6">
+            <select  class="form-select" style="background-color: transparent; border-bottom: none; border-top: none;" id="brandFilter">
+                <option style="background-color: transparent" value="">All Brands</option>
+                <option style="background-color: transparent" value="Apple">Apple</option>
+                <option style="background-color: transparent" value="Honor">Honor</option>
+                <option style="background-color: transparent" value="Samsung">Samsung</option>
+            </select>
+        </div>
+        <div class="col-xl-3 col-6">
+            <select class="form-select" style="background-color: transparent; border-bottom: none; border-top: none;" id="sortFilter">
+                <option value="">Order by:</option>
+                <option value="priceAscending">Price (min => max)</option>
+                <option value="priceDescending">Price (max => min)</option>
+            </select>
+        </div>
+
+    </div>
+
+    <br/>
+    <div class="row card-container">
+        @try
+        {
+            @if (Model.Count > 0 & true)
+            {
+                @foreach (var prod in Model)
+                {
+                    <partial name="_IndividualProductCard" model="prod"/>
+                }
+            }
+        }
+        catch
+        {
+            <h1>@ViewBag.Message</h1>
+        }
+
+    </div>
+</div>
+
+<script src="~/js/BrandFilter.js"></script>
+<script src="~/js/ProductSorting.js"></script>

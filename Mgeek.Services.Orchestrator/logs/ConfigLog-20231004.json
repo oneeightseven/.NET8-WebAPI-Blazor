@@ -1,0 +1,18 @@
+2023-10-04 15:28:42.949 +08:00 [INF] Token updated
+2023-10-04 15:46:55.026 +08:00 [INF] Token updated
+2023-10-04 16:02:29.455 +08:00 [INF] Token updated
+2023-10-04 16:18:59.490 +08:00 [INF] Token updated
+2023-10-04 16:19:54.915 +08:00 [INF] Order listened to => {"OrderHeaderDto":{"Id":0,"UserId":"e859fa1f-516c-4c7e-8b56-89f967ae6b1e","OrderDate":"2023-10-04T16:19:54.8178216+08:00","Sum":106990.0,"Name":"Sasha","Surname":"Volkov","Address":"12a-2-458","Promocode":"OFF","NumberPhone":"89501421465","Status":"Under review","$type":"OrderHeaderDto"},"OrderDetailsDto":[{"Id":0,"ProductId":106,"ProductDto":null,"Amount":1,"$type":"OrderDetailsDto"}],"$type":"OrderDto"}
+2023-10-04 16:19:54.942 +08:00 [INF] Promocode 'OFF' successfully decremented
+2023-10-04 16:19:55.036 +08:00 [INF] All products are reduced in stock
+2023-10-04 16:19:55.066 +08:00 [INF] Order status after checking: 'Order processed'
+2023-10-04 16:27:44.883 +08:00 [INF] Token updated
+2023-10-04 16:42:45.208 +08:00 [INF] Token updated
+2023-10-04 16:57:45.500 +08:00 [INF] Token updated
+2023-10-04 17:12:45.732 +08:00 [INF] Token updated
+2023-10-04 17:27:45.934 +08:00 [INF] Token updated
+2023-10-04 17:42:46.127 +08:00 [INF] Token updated
+2023-10-04 17:57:46.314 +08:00 [INF] Token updated
+2023-10-04 18:12:46.507 +08:00 [INF] Token updated
+2023-10-04 18:27:46.718 +08:00 [INF] Token updated
+2023-10-04 18:42:46.925 +08:00 [INF] Token updated

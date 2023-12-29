@@ -1,0 +1,22 @@
+2023-10-03 19:34:30.454 +08:00 [INF] Token updated
+2023-10-03 19:44:38.460 +08:00 [INF] Order listened to => {"OrderHeaderDto":{"Id":0,"UserId":"e859fa1f-516c-4c7e-8b56-89f967ae6b1e","OrderDate":"2023-10-03T19:44:38.2579431+08:00","Sum":99990.0,"Name":"Yar4ik","Surname":"Toropkin","Address":"17mrkn-domKaif","Promocode":"OFF","NumberPhone":"8940142","Status":"Under review","$type":"OrderHeaderDto"},"OrderDetailsDto":[{"Id":0,"ProductId":306,"ProductDto":null,"Amount":1,"$type":"OrderDetailsDto"}],"$type":"OrderDto"}
+2023-10-03 19:44:43.277 +08:00 [INF] Promocode 'OFF' successfully decremented
+2023-10-03 19:44:43.602 +08:00 [INF] All products are reduced in stock
+2023-10-03 19:44:43.654 +08:00 [INF] Order status after checking: 'Order processed'
+2023-10-03 19:49:30.815 +08:00 [INF] Token updated
+2023-10-03 20:04:31.309 +08:00 [INF] Token updated
+2023-10-03 20:10:23.119 +08:00 [INF] Token updated
+2023-10-03 20:13:35.815 +08:00 [INF] Token updated
+2023-10-03 20:17:12.688 +08:00 [INF] Token updated
+2023-10-03 20:25:47.762 +08:00 [INF] Token updated
+2023-10-03 20:35:04.893 +08:00 [INF] Token updated
+2023-10-03 20:50:05.205 +08:00 [INF] Token updated
+2023-10-03 21:05:05.476 +08:00 [INF] Token updated
+2023-10-03 21:20:05.688 +08:00 [INF] Token updated
+2023-10-03 21:23:31.558 +08:00 [INF] Order listened to => {"OrderHeaderDto":{"Id":0,"UserId":"e859fa1f-516c-4c7e-8b56-89f967ae6b1e","OrderDate":"2023-10-03T21:23:31.4340896+08:00","Sum":327890.0,"Name":"Sofia","Surname":"Volkova","Address":"Patriki","Promocode":"","NumberPhone":"89501421465","Status":"Under review","$type":"OrderHeaderDto"},"OrderDetailsDto":[{"Id":0,"ProductId":107,"ProductDto":null,"Amount":1,"$type":"OrderDetailsDto"},{"Id":0,"ProductId":106,"ProductDto":null,"Amount":1,"$type":"OrderDetailsDto"}],"$type":"OrderDto"}
+2023-10-03 21:23:31.765 +08:00 [INF] All products are reduced in stock
+2023-10-03 21:23:31.785 +08:00 [INF] Order status after checking: 'Order processed'
+2023-10-03 21:35:05.889 +08:00 [INF] Token updated
+2023-10-03 21:50:06.085 +08:00 [INF] Token updated
+2023-10-03 22:05:06.297 +08:00 [INF] Token updated
+2023-10-03 22:20:06.528 +08:00 [INF] Token updated

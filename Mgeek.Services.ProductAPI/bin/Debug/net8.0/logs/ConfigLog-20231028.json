@@ -1,0 +1,14 @@
+2023-10-28 10:27:19.567 +08:00 [ERR] product with Id 511 not found
+2023-10-28 11:06:43.585 +08:00 [ERR] product with id 124142 not found
+2023-10-28 11:11:44.375 +08:00 [ERR] A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 40 - Could not open a connection to SQL Server: Could not open a connection to SQL Server)
+2023-10-28 12:21:44.000 +08:00 [ERR] Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Stock -> IEnumerable`1
+Mgeek.Services.ProductAPI.Models.Stock -> System.Collections.Generic.IEnumerable`1[[Mgeek.Services.ProductAPI.Models.Dto.StockDto, Mgeek.Services.ProductAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2023-10-28 12:28:04.808 +08:00 [INF] All products decrease
+2023-10-28 12:31:16.969 +08:00 [INF] All products decrease
+2023-10-28 13:00:16.189 +08:00 [INF] All products decrease
+2023-10-28 13:12:31.977 +08:00 [INF] All products decrease
+2023-10-28 13:16:19.994 +08:00 [INF] All products decrease
+2023-10-28 19:51:43.079 +08:00 [INF] All products decrease

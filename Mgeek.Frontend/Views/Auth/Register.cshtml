@@ -1,0 +1,41 @@
+@model Mgeek.Frontend.Models.AuthAPI.RegistrationRequestDto
+
+<form method="post">
+    <div class="container p-3">
+        <div class="row text-center mb-1">
+            <h1>Registration</h1>
+        </div>
+        <div class="row">
+            <div class="col-12 col-xl-6 offset-xl-3 pb-2">
+                <input asp-for="Email" class="form-control" type="email" placeholder="email"/>
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="col-12 col-xl-6 offset-xl-3 pb-2">
+                <input asp-for="Name" class="form-control" placeholder="name"/>
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="col-12 col-xl-6 offset-xl-3 pb-2">
+                <input asp-for="PhoneNumber" class="form-control" placeholder="phone number"/>
+                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+            </div>
+            <div class="col-12 col-xl-6 offset-xl-3 pb-2">
+                <input asp-for="Password" class="form-control" type="password" placeholder="password"/>
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="col-12 col-xl-6 offset-xl-3 pb-2">
+                <h5 style="color: darkred">@ViewBag.Message</h5>
+            </div>
+            <div class="col-12 col-xl-6 offset-xl-3 pb-2">
+                <button type="submit" class="form-control btn btn-outline-primary" value="Submit">Continue</button>
+            </div>
+            <div class="col-12 col-xl-6 offset-xl-3 pb-2">
+                <a asp-action="Login">Have an account? Log in!</a>
+            </div>
+        </div>
+    </div>
+</form>
+
+@section Scripts
+{
+    <partial name="_ValidationScriptsPartial"/>
+}

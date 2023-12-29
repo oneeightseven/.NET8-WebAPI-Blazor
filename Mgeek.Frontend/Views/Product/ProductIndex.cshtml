@@ -1,0 +1,49 @@
+@model IOrderedEnumerable<Mgeek.Frontend.Models.ProductAPI.ProductDto>
+
+@if (Model.Any())
+{
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-8 col-6 mx-xl-4 mt-xl-1">
+                <h1 class="text-primary">Product list</h1>
+            </div>
+            <div class="col-xl-3 text-xl-end col-6 mx-xl-4">
+                <a asp-action="ChooseProduct" class="btn btn-outline-primary">Add new product</a>
+            </div>
+        </div>
+        <table class="table row mt-2">
+            <thead>
+            <tr class="d-flex">
+                <th class="col-xl-1 d-none d-sm-block"></th>
+                <th class="col-xl-1 text-center d-none d-sm-block">Id</th>
+                <th class="col-xl-4 col-4 text-center">Name</th>
+                <th class="col-xl-4 col-5 text-center">Price</th>
+                <th class="col-xl-2 col-3 text-center">Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (var item in Model)
+            {
+                <tr class="d-flex">
+                    <th class="col-xl-1 d-none d-sm-block">
+                        <img src="@item.ImageUrl" class="rounded" width="100%"/>
+                    </th>
+                    <td class="col-xl-1 d-none d-sm-block text-center mt-xl-3">@item.Id</td>
+
+                    <td class="col-xl-4 col-4 text-center mt-xl-3">@item.Name</td>
+                    <td class="col-xl-4 col-5 text-center mt-xl-3">@item.Price.ToString("c");</td>
+                    <td class="col-xl-2 col-3 text-center mt-xl-3">
+                        <a asp-action="ChooseCreatePageForProduct" class="btn-success" asp-route-Id="@item.Id" style="color:#013220">Изменить</a>
+                        <a asp-action="DeleteProduct" class="btn-danger" asp-route-Id="@item.Id" style="color:#8b0000">Удалить</a>
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+
+    </div>
+}
+else
+{
+    <h1>@ViewBag.Message</h1>
+}

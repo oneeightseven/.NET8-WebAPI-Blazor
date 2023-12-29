@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "29RQdVRwj8vdPa+xmpbJf79IftMf1SwFWzQY0VtFui4=",
+  "Source": "Mgeek.Services.Orchestrator",
+  "BasePath": "_content/Mgeek.Services.Orchestrator",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

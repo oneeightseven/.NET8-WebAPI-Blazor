@@ -1,0 +1,48 @@
+@model List<Mgeek.Frontend.Models.PromoAPI.PromocodeDto>
+
+@if (Model != null)
+{
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-9 col-6 mt-xl-1 mx-xl-4">
+                <h1 class="text-primary">Promo code list</h1>
+            </div>
+            <div class="col-xl-2 col-6 mx-xl-4">
+                <a asp-action="UpsertPromo" class="btn btn-outline-primary">Add new promo</a>
+            </div>
+        </div>
+        <table class="table row mt-2">
+            <thead>
+            <tr class="d-flex">
+                <th class="col-xl-1 d-none d-sm-block text-xl-center">Id</th>
+                <th class="col-xl-2 col-4 text-center">Name</th>
+                <th class="col-xl-2 d-none d-sm-block text-center">Remainder</th>
+                <th class="col-xl-2 d-none d-sm-block text-center">Min Amount</th>
+                <th class="col-xl-3 col-5 text-center">Sum discount</th>
+                <th class="col-xl-2 col-3 text-center">Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (var item in Model)
+            {
+                <tr class="d-flex">
+                    <td class="col-xl-1 d-none d-sm-block text-xl-center">@item.Id</td>
+                    <td class="col-xl-2 col-4 text-center">@item.Name</td>
+                    <td class="col-xl-2 d-none d-sm-block text-center">@item.Remainder</td>
+                    <td class="col-xl-2 d-none d-sm-block text-center">@(item.MinAmount + ",00 ₽;")</td>
+                    <td class="col-xl-3 col-5 text-center">@item.SumDiscount.ToString("c");</td>
+                    <td class="col-xl-2 col-3 text-center">
+                        <a asp-action="UpsertPromo" class="btn-success" asp-route-Id="@item.Id" style="color:#013220">Изменить</a>
+                        <a asp-action="DeletePromo" class="btn-danger" asp-route-Id="@item.Id" style="color:#8b0000">Удалить</a>
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+
+    </div>
+}
+else
+{
+    <h1>@ViewBag.Message</h1>
+}

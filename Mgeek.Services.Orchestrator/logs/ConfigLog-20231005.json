@@ -1,0 +1,36 @@
+2023-10-05 10:43:28.704 +08:00 [INF] Token updated
+2023-10-05 10:43:28.779 +08:00 [INF] Order listened to => {"OrderHeaderDto":{"Id":0,"UserId":"e859fa1f-516c-4c7e-8b56-89f967ae6b1e","OrderDate":"2023-10-05T10:42:41.5711859+08:00","Sum":200900.0,"Name":"Alexander","Surname":"Volkov","Address":"12a-2-458","Promocode":"OFF","NumberPhone":"89041422577","Status":"Under review","$type":"OrderHeaderDto"},"OrderDetailsDto":[{"Id":0,"ProductId":107,"ProductDto":null,"Amount":1,"$type":"OrderDetailsDto"}],"$type":"OrderDto"}
+2023-10-05 10:43:29.643 +08:00 [INF] Promocode 'OFF' ended or not found
+2023-10-05 10:43:29.672 +08:00 [INF] Order status after checking: 'Promo code has expired'
+2023-10-05 10:44:45.454 +08:00 [INF] Order listened to => {"OrderHeaderDto":{"Id":0,"UserId":"e859fa1f-516c-4c7e-8b56-89f967ae6b1e","OrderDate":"2023-10-05T10:44:45.3778835+08:00","Sum":243990.0,"Name":"Alexander","Surname":"Volkov","Address":"12a-2-458","Promocode":null,"NumberPhone":"89501421465","Status":"Under review","$type":"OrderHeaderDto"},"OrderDetailsDto":[{"Id":0,"ProductId":2,"ProductDto":null,"Amount":1,"$type":"OrderDetailsDto"},{"Id":0,"ProductId":1,"ProductDto":null,"Amount":1,"$type":"OrderDetailsDto"}],"$type":"OrderDto"}
+2023-10-05 10:48:53.429 +08:00 [INF] Token updated
+2023-10-05 10:50:10.392 +08:00 [INF] Order listened to => {"OrderHeaderDto":{"Id":0,"UserId":"e859fa1f-516c-4c7e-8b56-89f967ae6b1e","OrderDate":"2023-10-05T10:50:10.2219585+08:00","Sum":243990.0,"Name":"Alexander","Surname":"Volkov","Address":"12a-2-458","Promocode":null,"NumberPhone":"89501421465","Status":"Under review","$type":"OrderHeaderDto"},"OrderDetailsDto":[{"Id":0,"ProductId":2,"ProductDto":null,"Amount":1,"$type":"OrderDetailsDto"},{"Id":0,"ProductId":1,"ProductDto":null,"Amount":1,"$type":"OrderDetailsDto"}],"$type":"OrderDto"}
+2023-10-05 10:50:27.106 +08:00 [INF] Order listened to => {"OrderHeaderDto":{"Id":0,"UserId":"e859fa1f-516c-4c7e-8b56-89f967ae6b1e","OrderDate":"2023-10-05T10:50:27.0930292+08:00","Sum":210900.0,"Name":null,"Surname":null,"Address":null,"Promocode":null,"NumberPhone":null,"Status":"Under review","$type":"OrderHeaderDto"},"OrderDetailsDto":[{"Id":0,"ProductId":107,"ProductDto":null,"Amount":1,"$type":"OrderDetailsDto"}],"$type":"OrderDto"}
+2023-10-05 10:50:55.234 +08:00 [INF] Order listened to => {"OrderHeaderDto":{"Id":0,"UserId":"e859fa1f-516c-4c7e-8b56-89f967ae6b1e","OrderDate":"2023-10-05T10:50:55.2184749+08:00","Sum":200900.0,"Name":null,"Surname":"V","Address":null,"Promocode":"OFF","NumberPhone":null,"Status":"Under review","$type":"OrderHeaderDto"},"OrderDetailsDto":[{"Id":0,"ProductId":107,"ProductDto":null,"Amount":1,"$type":"OrderDetailsDto"}],"$type":"OrderDto"}
+2023-10-05 10:50:55.264 +08:00 [INF] Promocode 'OFF' successfully decremented
+2023-10-05 10:50:55.426 +08:00 [INF] All products are reduced in stock
+2023-10-05 10:50:55.450 +08:00 [INF] Order status after checking: 'Order processed'
+2023-10-05 10:52:06.507 +08:00 [INF] Token updated
+2023-10-05 10:52:09.143 +08:00 [INF] Order listened to => {"OrderHeaderDto":{"Id":0,"UserId":"e859fa1f-516c-4c7e-8b56-89f967ae6b1e","OrderDate":"2023-10-05T10:51:54.0409707+08:00","Sum":154990.0,"Name":null,"Surname":null,"Address":null,"Promocode":null,"NumberPhone":null,"Status":"Under review","$type":"OrderHeaderDto"},"OrderDetailsDto":[{"Id":0,"ProductId":2,"ProductDto":null,"Amount":1,"$type":"OrderDetailsDto"}],"$type":"OrderDto"}
+2023-10-05 10:53:56.902 +08:00 [INF] Token updated
+2023-10-05 10:53:58.879 +08:00 [INF] Order listened to => {"OrderHeaderDto":{"Id":0,"UserId":"e859fa1f-516c-4c7e-8b56-89f967ae6b1e","OrderDate":"2023-10-05T10:53:42.7497678+08:00","Sum":154990.0,"Name":null,"Surname":null,"Address":null,"Promocode":null,"NumberPhone":null,"Status":"Under review","$type":"OrderHeaderDto"},"OrderDetailsDto":[{"Id":0,"ProductId":2,"ProductDto":null,"Amount":1,"$type":"OrderDetailsDto"}],"$type":"OrderDto"}
+2023-10-05 10:55:26.957 +08:00 [INF] Token updated
+2023-10-05 10:55:28.770 +08:00 [INF] Order listened to => {"OrderHeaderDto":{"Id":0,"UserId":"e859fa1f-516c-4c7e-8b56-89f967ae6b1e","OrderDate":"2023-10-05T10:55:17.0618672+08:00","Sum":154990.0,"Name":null,"Surname":null,"Address":null,"Promocode":null,"NumberPhone":null,"Status":"Under review","$type":"OrderHeaderDto"},"OrderDetailsDto":[{"Id":0,"ProductId":2,"ProductDto":null,"Amount":1,"$type":"OrderDetailsDto"}],"$type":"OrderDto"}
+2023-10-05 10:56:32.198 +08:00 [INF] Token updated
+2023-10-05 10:56:35.282 +08:00 [INF] Order listened to => {"OrderHeaderDto":{"Id":0,"UserId":"e859fa1f-516c-4c7e-8b56-89f967ae6b1e","OrderDate":"2023-10-05T10:56:20.9450709+08:00","Sum":154990.0,"Name":null,"Surname":null,"Address":null,"Promocode":null,"NumberPhone":null,"Status":"Under review","$type":"OrderHeaderDto"},"OrderDetailsDto":[{"Id":0,"ProductId":2,"ProductDto":null,"Amount":1,"$type":"OrderDetailsDto"}],"$type":"OrderDto"}
+2023-10-05 10:56:40.469 +08:00 [INF] There are not enough goods in stock
+2023-10-05 10:57:06.671 +08:00 [INF] Order status after checking: 'One of the products is out of stock'
+2023-10-05 11:52:57.991 +08:00 [INF] Token updated
+2023-10-05 12:07:58.301 +08:00 [INF] Token updated
+2023-10-05 12:22:58.522 +08:00 [INF] Token updated
+2023-10-05 12:37:58.725 +08:00 [INF] Token updated
+2023-10-05 12:52:58.957 +08:00 [INF] Token updated
+2023-10-05 13:07:59.190 +08:00 [INF] Token updated
+2023-10-05 13:22:59.409 +08:00 [INF] Token updated
+2023-10-05 13:37:59.638 +08:00 [INF] Token updated
+2023-10-05 13:52:59.841 +08:00 [INF] Token updated
+2023-10-05 14:05:36.092 +08:00 [INF] Token updated
+2023-10-05 14:28:34.482 +08:00 [INF] Token updated
+2023-10-05 15:06:17.094 +08:00 [INF] Token updated
+2023-10-05 15:07:16.525 +08:00 [INF] Token updated
+2023-10-05 22:32:33.097 +08:00 [INF] Token updated

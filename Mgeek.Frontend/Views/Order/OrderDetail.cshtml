@@ -1,0 +1,114 @@
+@using System.Globalization
+@model Mgeek.Frontend.Models.OrderAPI.OrderDto
+
+<div class="container">
+    <div class="col-xl-12 col-12">
+        <div class="row">
+
+
+            <div class="col-xl-6 col-6">
+                <h2>Order #@Model.OrderHeaderDto!.Id</h2>
+            </div>
+            <div class="col-xl-6 col-6 text-end">
+                <a asp-controller="Order" asp-action="DeleteOrder" asp-route-orderId="@Model.OrderHeaderDto!.Id"><h5 class="mt-xl-1" style="text-decoration: underline">Remove order from my history</h5></a>
+            </div>
+            <div class="col-xl-12 col-12">
+                <h4>Issued on @Model.OrderHeaderDto.OrderDate.ToString("MMMM d, yyyy", CultureInfo.CreateSpecificCulture("en-US"))</h4>
+            </div>
+            
+
+
+            @foreach (var orderDetail in Model!.OrderDetailsDto!)
+            {
+                <div class="col-xl-2 mt-xl-2 col-6 ">
+                    <img class="text-center" src="@orderDetail.ProductDto!.ImageUrl" class="rounded" width="100%"/>
+                    <h5 class="text-center">@($"{orderDetail.ProductDto.Price:c}")</h5>
+                    <h6 class="text-center">@orderDetail.ProductDto.Name</h6>
+                    <button asp-controller="Order" asp-action="OrderIndex" class="w-100 btn btn-outline-dark text-center mb-xl-3 mb-xl-3">Leave feedback</button>
+                </div>
+            }
+
+
+            <div class="col-xl-12 col-12 mt-xl-0 mt-3">
+                <div class="card" style="border-left: none; border-right: none; color: black">
+                    <div class="row">
+                        <div class="col-xl-7">
+                            <div class="mt-xl-3">
+                                ㅤ
+                            </div>
+                            <div class="col-xl-12 text-xl-center">
+                                <h3 class="mt-xl-4 d-none d-sm-block">Paid by card</h3>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-12">
+                            <div class="row">
+                                <div class="col-xl-8 col-6">
+                                    @{
+                                        int amountProduct = 0;
+                                        foreach (var orderDetail in Model.OrderDetailsDto)
+                                        {
+                                            amountProduct += orderDetail.Amount;
+                                        }
+                                        <h5 class="mt-xl-4" style="color:grey">@amountProduct items worth</h5>
+                                    }
+                                </div>
+                                <div class="col-xl-4 text-center col-6">
+                                    <h5 class="mt-xl-4">@($"{Model.OrderHeaderDto.Sum:c}")</h5>
+                                </div>
+                                <div class="col-xl-8 col-6">
+                                    <h5 class="mt-xl-4" style="color:grey">Delivery</h5>
+                                </div>
+                                <div class="col-xl-4 col-6 text-center">
+                                    <h5 class="mt-xl-4">free</h5>
+                                </div>
+                                <div class="col-xl-8 col-6">
+                                    <h4 class="mt-xl-4" style="color: darkred">Total</h4>
+                                </div>
+                                <div class="col-xl-4 col-6 text-center">
+                                    <h4 class="mt-xl-4 mb-xl-4 mb-3" style="color: darkred">@($"{Model.OrderHeaderDto.Sum:c}")</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-12">
+                <div class="card" style="border-left: none; border-right: none; border-top: none; color: black">
+                    <div class="row">
+                        <div class="col-xl-7">
+                            <div class="mt-xl-3">
+                                ㅤ
+                            </div>
+                            <div class="col-xl-12 text-xl-center">
+                                <h3 class="mt-xl-4 d-none d-sm-block">Order detail</h3>
+                            </div>
+                        </div>
+                        <div class="col-xl-5">
+                            <div class="row">
+                                <div class="col-xl-8 col-6">
+                                    <h5 class="mt-xl-4" style="color:grey">Address</h5>
+                                </div>
+                                <div class="col-xl-4 col-6 text-center">
+                                    <h6 class="mt-xl-4">@Model.OrderHeaderDto.Address</h6>
+                                </div>
+                                <div class="col-xl-8 col-6">
+                                    <h5 class="mt-xl-4" style="color:grey">Customer</h5>
+                                </div>
+                                <div class="col-xl-4 col-6 text-center">
+                                    <h6 class="mt-xl-3">@Model.OrderHeaderDto.Surname @Model.OrderHeaderDto.Name</h6>
+                                </div>
+                                <div class="col-xl-8 col-6">
+                                    <h4 class="mt-xl-4">Status</h4>
+                                </div>
+                                <div class="col-xl-4 col-6 text-center">
+                                    <h4 class="mt-xl-4 mb-xl-4 mb-3">Delivered</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

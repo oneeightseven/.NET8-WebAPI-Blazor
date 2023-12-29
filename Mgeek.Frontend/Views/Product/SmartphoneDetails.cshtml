@@ -1,0 +1,90 @@
+@model Mgeek.Frontend.Models.ProductAPI.SmartphoneVM
+
+<form method="post" enctype="multipart/form-data" asp-controller="Cart" asp-action="AddProductToCart" asp-route-productId="@Model.SmartphoneDto!.Id" id="form">
+    <div class="container-fluid">
+        <div class="row">
+            <input asp-for="@Model!.SmartphoneDto!.Id" hidden/>
+            <div class="offset-xl-1 col-xl-5 mt-xl-4 col-12">
+                <img class="img-fluid" style="text-transform: none;" src="@Model.SmartphoneDto!.ImageUrl" alt=""/>
+            </div>
+
+            <div class="col-xl-5 mt-xl-5 col-12">
+                <h1 class="col-12 text-xl-start text-center">@Model.SmartphoneDto.Name</h1>
+                <h4 class="col-12 text-xl-start text-center" style="color:grey">@Model.SmartphoneDto.Brand</h4>
+                <h2 style="font-weight: bold" class="mt-xl-3 col-12 text-xl-start text-center">@Model.SmartphoneDto.Price.ToString("c0")</h2>
+                @if (@Model.Amount > 0)
+                {
+                    <input type="submit" class="btn offset-2 offset-xl-0 col-8 col-xl-4 text-xl-start text-center" style="background-color: #6c4675; color: white" value="Add to shopping cart"/>
+                }
+                else
+                {
+                    <input class="btn offset-2 offset-xl-0 col-8 col-xl-4 text-xl-start text-center" style="background-color: dimgrey; color: black" value="product is out of stock :с"/>
+                }
+
+                <h5 class="mt-xl-4 mt-4" style="color:black">Characteristics:</h5>
+                <div class="row ">
+                    <div class="col-xl-2 col-3">
+                        <h6 class="mt-xl-1" style="color:grey">Diagonal:</h6>
+                    </div>
+                    <div class="col-xl-10 col-3">
+                        <h6 class="mt-xl-1" style="color:black">@Model.SmartphoneDto.Diagonal</h6>
+                    </div>
+                    <div class="col-xl-2 col-3">
+                        <h6 class="mt-xl-1" style="color:grey">Cpu:</h6>
+                    </div>
+                    <div class="col-xl-10 col-3">
+                        <h6 class="mt-xl-1" style="color:black">@Model.SmartphoneDto.Cpu</h6>
+                    </div>
+                    <div class="col-xl-2 col-3">
+                        <h6 class="mt-xl-1" style="color:grey">Ram:</h6>
+                    </div>
+                    <div class="col-xl-10 col-3">
+                        <h6 class="mt-xl-1" style="color:black">@(Model.SmartphoneDto.Ram + "Gb")</h6>
+                    </div>
+                    <div class="col-xl-2 col-3">
+                        <h6 class="mt-xl-1" style="color:grey">Rom:</h6>
+                    </div>
+                    <div class="col-xl-10 col-3">
+                        <h6 class="mt-xl-1" style="color:black">@(Model.SmartphoneDto.Rom + "Gb")</h6>
+                    </div>
+                    <div class="col-xl-2 col-3">
+                        <h6 class="mt-xl-1" style="color:grey">Camera:</h6>
+                    </div>
+                    <div class="col-xl-10 col-3">
+                        <h6 class="mt-xl-1" style="color:black">@(Model.SmartphoneDto.CameraPixels + "MP")</h6>
+                    </div>
+                    <div class="col-xl-2 col-3">
+                        <h6 class="mt-xl-1" style="color:grey">Battery:</h6>
+                    </div>
+                    <div class="col-xl-10 col-3">
+                        <h6 class="mt-xl-1" style="color:black">@Model.SmartphoneDto.Battery mAh</h6>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xl-8 mt-xl-4">
+                        <h5 style="color: gray; text-transform: none">@Model.SmartphoneDto.Description</h5>
+                    </div>
+                </div>
+
+            </div>
+            <div class="offset-xl-2 col-xl-1 text-center">
+                <img class="img-fluid" style="text-transform: none;" src="@Model.SmartphoneDto.ImageUrl" onclick="copyImageSrc(this)" alt=""/>
+            </div>
+            <div class="col-xl-1 text-center">
+                <img class="img-fluid" style="text-transform: none;" src="@Model.SmartphoneDto.SecondImageUrl" onclick="copyImageSrc(this)" alt=""/>
+            </div>
+            <div class="col-xl-1 text-center">
+                <img class="img-fluid" style="text-transform: none;" src="@Model.SmartphoneDto.ThirdImageUrl" onclick="copyImageSrc(this)" alt=""/>
+            </div>
+        </div>
+    </div>
+</form>
+
+<script>
+    function copyImageSrc(image) {
+        let imageUrl = image.src;
+        let targetElement = document.querySelector('.offset-xl-1.col-xl-5.mt-xl-4.col-12 img');
+        targetElement.src = imageUrl;
+    }
+</script>

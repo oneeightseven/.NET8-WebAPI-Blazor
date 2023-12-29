@@ -1,0 +1,186 @@
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/appsettings.Development.json
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/appsettings.json
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Mgeek.Services.ProductAPI
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Mgeek.Services.ProductAPI.deps.json
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Mgeek.Services.ProductAPI.runtimeconfig.json
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Mgeek.Services.ProductAPI.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Mgeek.Services.ProductAPI.pdb
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/AutoMapper.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Azure.Core.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Azure.Identity.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Humanizer.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.Data.SqlClient.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Design.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.Identity.Client.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.SqlServer.Server.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Mono.TextTemplating.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/System.CodeDom.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/System.Drawing.Common.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/System.Memory.Data.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/System.Runtime.Caching.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/System.Security.Permissions.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/System.Windows.Extensions.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/obj/Debug/net8.0/Mgeek.Services.ProductAPI.csproj.AssemblyReference.cache
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/obj/Debug/net8.0/Mgeek.Services.ProductAPI.GeneratedMSBuildEditorConfig.editorconfig
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/obj/Debug/net8.0/Mgeek.Services.ProductAPI.AssemblyInfoInputs.cache
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/obj/Debug/net8.0/Mgeek.Services.ProductAPI.AssemblyInfo.cs
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/obj/Debug/net8.0/Mgeek.Services.ProductAPI.csproj.CoreCompileInputs.cache
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/obj/Debug/net8.0/Mgeek.Services.ProductAPI.MvcApplicationPartsAssemblyInfo.cs
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/obj/Debug/net8.0/Mgeek.Services.ProductAPI.MvcApplicationPartsAssemblyInfo.cache
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/obj/Debug/net8.0/staticwebassets.build.json
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/obj/Debug/net8.0/staticwebassets.development.json
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/obj/Debug/net8.0/staticwebassets/msbuild.Mgeek.Services.ProductAPI.Microsoft.AspNetCore.StaticWebAssets.props
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/obj/Debug/net8.0/staticwebassets/msbuild.build.Mgeek.Services.ProductAPI.props
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Mgeek.Services.ProductAPI.props
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Mgeek.Services.ProductAPI.props
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/obj/Debug/net8.0/staticwebassets.pack.json
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/obj/Debug/net8.0/scopedcss/bundle/Mgeek.Services.ProductAPI.styles.css
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/obj/Debug/net8.0/Mgeek.Services.ProductAPI.csproj.CopyComplete
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/obj/Debug/net8.0/Mgeek.Services.ProductAPI.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/obj/Debug/net8.0/refint/Mgeek.Services.ProductAPI.dll
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/obj/Debug/net8.0/Mgeek.Services.ProductAPI.pdb
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/obj/Debug/net8.0/Mgeek.Services.ProductAPI.genruntimeconfig.cache
+/home/oneeightseven/Рабочий стол/TattooParlor/Mgeek/Mgeek.Services.ProductAPI/obj/Debug/net8.0/ref/Mgeek.Services.ProductAPI.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/appsettings.Development.json
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/appsettings.json
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Mgeek.Services.ProductAPI
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Mgeek.Services.ProductAPI.deps.json
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Mgeek.Services.ProductAPI.runtimeconfig.json
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Mgeek.Services.ProductAPI.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Mgeek.Services.ProductAPI.pdb
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/AutoMapper.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Azure.Core.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Azure.Identity.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Humanizer.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.Data.SqlClient.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Design.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.Identity.Client.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.SqlServer.Server.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Mono.TextTemplating.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/System.CodeDom.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/System.Drawing.Common.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/System.Memory.Data.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/System.Runtime.Caching.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/System.Security.Permissions.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/System.Windows.Extensions.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/obj/Debug/net8.0/Mgeek.Services.ProductAPI.csproj.AssemblyReference.cache
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/obj/Debug/net8.0/Mgeek.Services.ProductAPI.GeneratedMSBuildEditorConfig.editorconfig
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/obj/Debug/net8.0/Mgeek.Services.ProductAPI.AssemblyInfoInputs.cache
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/obj/Debug/net8.0/Mgeek.Services.ProductAPI.AssemblyInfo.cs
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/obj/Debug/net8.0/Mgeek.Services.ProductAPI.csproj.CoreCompileInputs.cache
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/obj/Debug/net8.0/Mgeek.Services.ProductAPI.MvcApplicationPartsAssemblyInfo.cs
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/obj/Debug/net8.0/Mgeek.Services.ProductAPI.MvcApplicationPartsAssemblyInfo.cache
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/obj/Debug/net8.0/staticwebassets.build.json
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/obj/Debug/net8.0/staticwebassets.development.json
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/obj/Debug/net8.0/staticwebassets/msbuild.Mgeek.Services.ProductAPI.Microsoft.AspNetCore.StaticWebAssets.props
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/obj/Debug/net8.0/staticwebassets/msbuild.build.Mgeek.Services.ProductAPI.props
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Mgeek.Services.ProductAPI.props
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Mgeek.Services.ProductAPI.props
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/obj/Debug/net8.0/staticwebassets.pack.json
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/obj/Debug/net8.0/scopedcss/bundle/Mgeek.Services.ProductAPI.styles.css
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/obj/Debug/net8.0/Mgeek.Services.ProductAPI.csproj.CopyComplete
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/obj/Debug/net8.0/Mgeek.Services.ProductAPI.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/obj/Debug/net8.0/refint/Mgeek.Services.ProductAPI.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/obj/Debug/net8.0/Mgeek.Services.ProductAPI.pdb
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/obj/Debug/net8.0/Mgeek.Services.ProductAPI.genruntimeconfig.cache
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/obj/Debug/net8.0/ref/Mgeek.Services.ProductAPI.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Serilog.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Serilog.AspNetCore.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Serilog.Extensions.Hosting.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Serilog.Extensions.Logging.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Serilog.Formatting.Compact.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Serilog.Settings.Configuration.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Serilog.Sinks.Console.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Serilog.Sinks.Debug.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Serilog.Sinks.File.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/logs/ConfigLog-20230927.json
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/logs/ConfigLog-20230929.json
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/logs/ConfigLog-20231003.json
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/logs/ConfigLog-20231004.json
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/logs/ConfigLog-20231005.json
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/logs/ConfigLog-20231006.json
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/logs/ConfigLog-20231007.json
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/logs/ConfigLog-20231008.json
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/logs/ConfigLog-20231011.json
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.Extensions.Caching.Abstractions.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.Extensions.Caching.StackExchangeRedis.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/Pipelines.Sockets.Unofficial.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/StackExchange.Redis.dll
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/logs/ConfigLog-20231028.json
+/home/oneeightseven/Mgeek/Mgeek.Services.ProductAPI/bin/Debug/net8.0/logs/ConfigLog-20231029.json

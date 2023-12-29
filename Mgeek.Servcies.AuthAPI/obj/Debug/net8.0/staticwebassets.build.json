@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ofWYrCMyHZlMDjo2NVDMH0KoDN5TwekFVvLv7QIAD1g=",
+  "Source": "Mgeek.Servcies.AuthAPI",
+  "BasePath": "_content/Mgeek.Servcies.AuthAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

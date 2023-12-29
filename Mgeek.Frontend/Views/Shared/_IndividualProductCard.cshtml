@@ -1,0 +1,23 @@
+@model Mgeek.Frontend.Models.ProductAPI.ProductDto
+
+
+<div class="col-xl-3 col-6 pb-4 product-card">
+    <a asp-controller="Product" asp-action="ChooseDetailPageForProduct" asp-route-id="@Model.Id">
+        <img class="img-fluid" src="@Model.ImageUrl" alt="Card image cap"/>
+        <div class="row text-center">
+            <div class="offset-xl-0 col-xl-12">
+                <label>
+                    <span class="text-black brand" style="margin-bottom: -40px; margin-left: 15px; font-weight: bold">@Model.Brand</span>
+                </label>
+            </div>
+            <div class="offset-xl-0 col-xl-12">
+                <label class="text-black" style="font-size: 15px; margin-left: 20px; color: grey">@Model.Name</label>
+            </div>
+            <div class="price offset-xl-0 col-xl-12">
+                <label>
+                    <span class="price" style="font-weight: bold; margin-left: 20px;">@Model.Price.ToString("c0")</span>
+                </label>
+            </div>
+        </div>
+    </a>
+</div>

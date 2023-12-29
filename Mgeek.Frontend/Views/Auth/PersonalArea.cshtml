@@ -1,0 +1,59 @@
+<div class="container">
+    <div class="row text-center">
+        @if (User.IsInRole("ADMIN"))
+        {
+            <div class="col-xl-1">
+
+            </div>
+            <div class="col-xl-3 mx-xl-2">
+                <a asp-controller="Order" asp-action="OrderIndex" style="text-decoration: none">
+                    <h3>Order history</h3>
+                </a>
+            </div>
+            <div class="col-xl-3 mx-xl-4">
+                <h3>Favorites</h3>
+            </div>
+            <div class="col-xl-3 mx-xl-2">
+                <a asp-controller="Auth" asp-action="Logout" style="text-decoration: none">
+                    <h3>Logout</h3>
+                </a>
+            </div>
+        }
+    </div >
+    <div class="row">
+        <div class="col-xl-5">
+
+        </div>
+        <div class="col-xl-1 text-end mx-xl-1">
+            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <h6>Admin menu</h6>
+            </button>
+            <ul class="dropdown-menu">
+                <li>
+                    <a class="dropdown-item text-black" asp-controller="Product" asp-action="ProductIndex">Products</a>
+                </li>
+                <li>
+                    <a class="dropdown-item text-black" asp-controller="Product" asp-action="StockIndex">Stock</a>
+                </li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li>
+                    <a class="dropdown-item text-black" asp-controller="Promo" asp-action="PromoIndex">Promocodes</a>
+                </li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li>
+                    <a class="dropdown-item text-black" asp-controller="Order" asp-action="FoundOrders">Orders</a>
+                </li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li>
+                    <a class="dropdown-item text-black" href="#">Feedback</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div >

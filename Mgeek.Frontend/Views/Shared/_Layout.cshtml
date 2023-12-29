@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>@ViewData["Title"] - Mgeek.Frontend</title>
+    <link rel="stylesheet" href="~/css/notifications.css"/>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
+    <link rel="stylesheet" href="~/Mgeek.Frontend.styles.css" asp-append-version="true"/>
+</head>
+<body>
+<header>
+    <nav class="navbar-expand-xl navbar-toggleable-xl navbar-light border-bottom box-shadow mb-3" style="background-color: #6c4675">
+        <!--navbar -->
+        <div class="container-fluid">
+            <div class="row col-xl-12">
+                <div class="offset-xl-4 col-xl-4 text-center">
+                    <a style="text-decoration: none" asp-controller="Home" asp-action="Index"><h1 style="font-size: 50px;" class="text-white mt-4 mt-xl-2">Mgeek</h1></a>
+                </div>
+                <div class="col-xl-4"></div>
+            </div>
+        </div>
+        <div class="container">
+            <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="col-xl-12 ">
+                <div class="justify-content-center navbar-collapse collapse d-sm-inline-flex">
+                    <ul class="navbar-nav">
+                        
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-controller="Home" asp-action="Index">
+                                <h4 class="text-white">Smartphones</h4>
+                            </a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-controller="Home" asp-action="Index">
+                                <h4 class="text-white">Laptops</h4>
+                            </a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-controller="Home" asp-action="Index">
+                                <h4 class="text-white">Tablets</h4>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-controller="Cart" asp-action="CartIndex">
+                                <h4 class="text-white">CART</h4>
+                            </a>
+                        </li>
+
+
+                        @if (!User.Identity!.IsAuthenticated)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-white" asp-controller="Auth" asp-action="Login">Login</a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li>
+                                <a style="text-transform: lowercase" class="nav-link text-white" asp-controller="Auth" asp-action="PersonalArea">
+                                    <h4 class="text-white">Personal Area</h4>
+                                </a>
+                            </li>
+                        }
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="container-fluid">
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+</div>
+
+<footer class="border-top footer text-muted">
+    <div class="container">
+        &copy; 2023 - Mgeek.Frontend
+    </div>
+</footer>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+@await RenderSectionAsync("Scripts", required: false)
+@await Component.InvokeAsync("NToastNotify")
+</body>
+</html>

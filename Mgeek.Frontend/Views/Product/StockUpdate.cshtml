@@ -1,0 +1,17 @@
+@model Mgeek.Frontend.Models.ProductAPI.StockDto
+
+<form method="post">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6">
+                <img src="@Model.Product!.ImageUrl" class="rounded" width="100%"/>
+            </div>
+            <div class="col-xl-4 col-12 input-box mt-xl-3">
+                <input asp-for="@Model.ProductId" hidden/>
+                <h4>@Model.Product.Name</h4>
+                <input placeholder="Amount" asp-for="@Model.Amount" class="form-control w-100"/>
+                <button type="submit" asp-action="StockUpdate" class="w-100 btn btn-outline-dark text-center mt-xl-3 mb-xl-3 mb-3">Activate</button>
+            </div>
+        </div>
+    </div>
+</form>

@@ -1,0 +1,115 @@
+@model Mgeek.Frontend.Models.ProductAPI.LaptopDto
+<div class="container">
+    <form method="post" enctype="multipart/form-data" asp-action="LaptopCreate" id="form">
+        <div class="p-3">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group row">
+                <h2 class="text-secondary pl-3 text-center mb-4">Laptop upsert</h2>
+            </div>
+            <div class="row text-center">
+                <div class="col-12">
+                    <input asp-for="@Model!.Id" hidden/>
+                    <div class="form-group row">
+                        <div class="offset-xl-3 col-xl-6 col-12 input-box">
+                            <input data-required="true" data-min-length="1" data-max-length="200" placeholder="Name" asp-for="@Model!.Name" class="form-control"/>
+                        </div>
+                    </div>
+                    <br/>
+
+                    <div class="form-group row">
+                        <div class="offset-xl-3 col-xl-6 col-12 input-box">
+                            <input data-required="true" data-min-length="1" data-max-length="200" placeholder="Brand" asp-for="@Model!.Brand" class="form-control"/>
+                        </div>
+                    </div>
+                    <br/>
+
+                    <div class="form-group row">
+                        <div class="offset-xl-3 col-xl-6 col-12 input-box">
+                            <input data-required="true" data-min-length="1" data-max-length="200" placeholder="ImageUrl" asp-for="@Model!.ImageUrl" class="form-control"/>
+                        </div>
+                    </div>
+                    <br/>
+
+                    <div class="form-group row">
+                        <div class="offset-xl-3 col-xl-6 col-12 input-box">
+                            <input data-required="true" data-min-length="1" data-max-length="200" placeholder="2ndImageUrl" asp-for="@Model!.SecondImageUrl" class="form-control"/>
+                        </div>
+                    </div>
+                    <br/>
+
+                    <div class="form-group row">
+                        <div class="offset-xl-3 col-xl-6 col-12 input-box">
+                            <input data-required="true" data-min-length="1" data-max-length="200" placeholder="2ndImageUrl" asp-for="@Model!.ThirdImageUrl" class="form-control"/>
+                        </div>
+                    </div>
+                    <br/>
+
+                    <div class="form-group row">
+                        <div class="offset-xl-3 col-xl-6 col-12 input-box">
+                            <input data-required="true" data-min-length="1" data-max-length="200" placeholder="ScreenResolution" asp-for="@Model!.ScreenResolution" class="form-control"/>
+                        </div>
+                    </div>
+                    <br/>
+
+                    <div class="form-group row">
+                        <div class="offset-xl-3 col-xl-6 col-12 input-box">
+                            <input data-required="true" data-min-length="1" data-max-length="200" placeholder="Gpu" asp-for="@Model!.Gpu" class="form-control"/>
+                        </div>
+                    </div>
+                    <br/>
+
+                    <div class="form-group row">
+                        <div class="offset-xl-3 col-xl-6 col-12 input-box">
+                            <input data-required="true" data-min-length="1" data-max-length="200" placeholder="Diagonal" asp-for="@Model!.Diagonal" class="form-control"/>
+                        </div>
+                    </div>
+                    <br/>
+
+                    <div class="form-group row">
+                        <div class="offset-xl-3 col-xl-6 col-12 input-box">
+                            <input data-required="true" data-min-length="1" data-max-length="200" placeholder="Cpu" asp-for="@Model!.Cpu" class="form-control"/>
+                        </div>
+                    </div>
+                    <br/>
+
+                    <div class="form-group row">
+                        <div class="offset-xl-3 col-xl-6 col-12 input-box">
+                            <input data-required="true" data-min-length="1" data-max-length="200" placeholder="Ram" asp-for="@Model!.Ram" class="form-control"/>
+                        </div>
+                    </div>
+                    <br/>
+
+                    <div class="form-group row">
+                        <div class="offset-xl-3 col-xl-6 col-12 input-box">
+                            <input data-required="true" data-min-length="1" data-max-length="200" placeholder="Rom" asp-for="@Model!.Rom" class="form-control"/>
+                        </div>
+                    </div>
+                    <br/>
+
+                    <div class="form-group row">
+                        <div class="offset-xl-3 col-xl-6 col-12 input-box">
+                            <input data-required="true" data-min-length="1" data-max-length="200" placeholder="Price" asp-for="@Model!.Price" class="form-control"/>
+                        </div>
+                    </div>
+                    <br/>
+                    <div class="form-group row">
+                        <div class="offset-xl-3 col-xl-6 col-12 input-box">
+                            <textarea data-required="true" data-min-length="1" data-max-length="4000" placeholder="Description" asp-for="@Model!.Description" class="form-control"></textarea>
+                        </div>
+                    </div>
+                    <br/>
+
+                    <div class="form-group row">
+                        <div class="offset-xl-6 col-xl-3 offset-3 col-6 row">
+
+                            <div class="col">
+                                <input type="submit" class="form-control btn btn-outline-primary text-center w-100" value="Upsert"/>
+                            </div>
+                            <br/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

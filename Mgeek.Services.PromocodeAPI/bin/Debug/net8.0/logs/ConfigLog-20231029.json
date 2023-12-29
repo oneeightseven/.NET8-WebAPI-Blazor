@@ -1,0 +1,3 @@
+2023-10-29 14:21:52.398 +08:00 [INF] Promo-code {"Id":1002,"Name":"OFF","SumDiscount":10000,"Remainder":100,"MinAmount":3000,"$type":"Promocode"} successfully updated
+2023-10-29 14:22:20.180 +08:00 [INF] Promo-code {"Id":1002,"Name":"OFF","SumDiscount":10000,"Remainder":99,"MinAmount":3000,"$type":"Promocode"} successfully decremented
+2023-10-29 14:22:42.310 +08:00 [INF] Promo-code {"Id":1002,"Name":"OFF","SumDiscount":10000,"Remainder":100,"MinAmount":3000,"$type":"Promocode"} successfully updated

@@ -1,0 +1,126 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Mgeek.Frontend
+build_property.RootNamespace = Mgeek.Frontend
+build_property.ProjectDir = /home/oneeightseven/Mgeek/Mgeek.Frontend/
+build_property.EnableComHosting = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = /home/oneeightseven/Mgeek/Mgeek.Frontend
+build_property._RazorSourceGeneratorDebug = 
+
+[/home/oneeightseven/Mgeek/Mgeek.Frontend/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/oneeightseven/Mgeek/Mgeek.Frontend/Views/Auth/PersonalArea.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aC9QZXJzb25hbEFyZWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/oneeightseven/Mgeek/Mgeek.Frontend/Views/Auth/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aC9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/oneeightseven/Mgeek/Mgeek.Frontend/Views/Cart/CartIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FydC9DYXJ0SW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/oneeightseven/Mgeek/Mgeek.Frontend/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/oneeightseven/Mgeek/Mgeek.Frontend/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/oneeightseven/Mgeek/Mgeek.Frontend/Views/Order/FoundOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXIvRm91bmRPcmRlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/oneeightseven/Mgeek/Mgeek.Frontend/Views/Order/OrderCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXIvT3JkZXJDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/oneeightseven/Mgeek/Mgeek.Frontend/Views/Order/OrderDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXIvT3JkZXJEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/oneeightseven/Mgeek/Mgeek.Frontend/Views/Order/OrderIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXIvT3JkZXJJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/oneeightseven/Mgeek/Mgeek.Frontend/Views/Order/OrderSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXIvT3JkZXJTdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/oneeightseven/Mgeek/Mgeek.Frontend/Views/Product/ChooseProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9DaG9vc2VQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/oneeightseven/Mgeek/Mgeek.Frontend/Views/Product/LaptopCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9MYXB0b3BDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/oneeightseven/Mgeek/Mgeek.Frontend/Views/Product/LaptopDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9MYXB0b3BEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/oneeightseven/Mgeek/Mgeek.Frontend/Views/Product/ProductIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9Qcm9kdWN0SW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/oneeightseven/Mgeek/Mgeek.Frontend/Views/Product/SmartphoneCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9TbWFydHBob25lQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/oneeightseven/Mgeek/Mgeek.Frontend/Views/Product/SmartphoneDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9TbWFydHBob25lRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/oneeightseven/Mgeek/Mgeek.Frontend/Views/Product/StockIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9TdG9ja0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/oneeightseven/Mgeek/Mgeek.Frontend/Views/Product/StockUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9TdG9ja1VwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/oneeightseven/Mgeek/Mgeek.Frontend/Views/Promo/PromoIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvbW8vUHJvbW9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/oneeightseven/Mgeek/Mgeek.Frontend/Views/Promo/UpsertPromo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvbW8vVXBzZXJ0UHJvbW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/oneeightseven/Mgeek/Mgeek.Frontend/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/oneeightseven/Mgeek/Mgeek.Frontend/Views/Shared/_IndividualProductCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19JbmRpdmlkdWFsUHJvZHVjdENhcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/oneeightseven/Mgeek/Mgeek.Frontend/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/oneeightseven/Mgeek/Mgeek.Frontend/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/oneeightseven/Mgeek/Mgeek.Frontend/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/oneeightseven/Mgeek/Mgeek.Frontend/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-cxxv2v2c2w

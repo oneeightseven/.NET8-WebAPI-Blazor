@@ -1,0 +1,104 @@
+@model Mgeek.Frontend.Models.CartAPI.CartDto
+
+@if (Model.CartDetails != null && Model.CartDetails.Any())
+{
+    <form method="post">
+        <div class="container">
+            <div class="col-xl-12">
+                <div class="row">
+                    <div class="col-xl-1">
+
+                    </div>
+                    <div class="col-xl-1 col-2">
+                        <h1 class="mt-1 mx-xl-4">Cart</h1>
+                    </div>
+                    <div class="col-xl-10 col-8 mt-xl-0 mt-3 mx-3 mx-xl-0">
+                        @{
+                            int amountProduct = 0;
+                            @foreach (var item in Model.CartDetails!)
+                            {
+                                amountProduct += item.Count;
+                            }
+                        }
+                        <h6 class="mt-xl-4 mx-xl-3">@amountProduct product, @($"{Model.CartHeader!.Discount + Model.CartHeader!.CartTotal:c}")</h6>
+                    </div>
+                </div>
+                @foreach (var item in Model.CartDetails!)
+                {
+                    <div class="row mt-3 mt-xl-0">
+                        <div class="col-xl-1">
+
+                        </div>
+                        <div class="col-xl-8 col-12">
+                            <div class="card border-0">
+                                <div class="row">
+                                    <div class="col-xl-3 mt-xl-3 mb-xl-3 col-4">
+                                        <a style="text-decoration: none" asp-controller="Product" asp-action="ChooseDetailPageForProduct" asp-route-id="@item.Product!.Id">
+                                            <img src="@item.Product!.ImageUrl" class="rounded" width="100%"/>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-9 mt-xl-3 col-8 mt-3">
+                                        <a style="text-decoration: none" asp-controller="Product" asp-action="ChooseDetailPageForProduct" asp-route-id="@item.Product!.Id">
+                                            <h4 class="mt-xl-2" style="color: black">@item.Product.Name</h4>
+                                        </a>
+                                        <h6 class="mt-xl-4 d-none d-sm-block">@(item.Product!.Description!.Substring(0, Math.Min(item.Product.Description.Length, 350)))...</h6>
+                                        <h4 class="mt-xl-4" style="color:black">@($"{item.Product.Price:c}") x @item.Count</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 d-none d-sm-block">
+                            <div>ㅤ</div>
+                            <a asp-action="RemoveProduct" asp-route-cartDetailsId="@item.Id">
+                                <img class="mt-xl-5 mx-xl-4 " src="https://imagess.hb.ru-msk.vkcs.cloud/trash_bin_icon-icons.com_67981.png" width="10%"/>
+                            </a>
+                        </div>
+                    </div>
+                }
+            </div>
+            <div class="row mt-xl-3">
+                <div class="col-xl-1">
+
+                </div>
+                <div class="col-xl-5 mt-xl-0 mt-3">
+                    <div class="row">
+                        <div class="card" style="background-color: #6c4675">
+                            <div class="col-xl-12 ">
+                                <h4 class="text-white text-center mt-3">use promo-code: </h4>
+                            </div>
+                            <div class="col-xl-12 mb-xl-0 mb-3">
+                                <input style="background-color: transparent; border-top: none; font-size: 20px; border-left: none; border-right: none; color: white; outline: none; border-bottom-color: white" asp-for="CartHeader!.PromoCode" class="w-100 mt-xl-1"/>
+                                <h6 class="text-white mt-xl-2">@ViewBag.Message</h6>
+                            </div>
+                            <div class="col-xl-12">
+                                <button type="submit" asp-action="UpdatePromo" class="w-100 btn btn-outline-light text-center mt-xl-1 mb-xl-3 mb-3">Activate</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 card border-0 mt-xl-4 mt-3">
+                    @if (Model.CartHeader.PromoCode != "")
+                    {
+                        <h4 class="text-success">Discount: @($"{Model.CartHeader!.Discount:c}")</h4>
+                    }
+                    <h3 class="text-black">Total Sum: @($"{Model.CartHeader!.CartTotal:c}")</h3>
+                    <h6>Shipping cost not included*</h6>
+
+                    <a asp-controller="Order" asp-action="OrderCreate" class="btn btn-outline-primary text-center">to Checkout</a>
+                </div>
+            </div>
+
+        </div>
+    </form>
+}
+else
+{
+    <div class="container text-center ">
+        <div class="row">
+            <h1 class="mt-xl-2">your shopping cart is empty :c</h1>
+            <a style="text-decoration: none" asp-controller="Home" asp-action="Index"><h4 class="text-success">continue shopping</h4></a>
+        </div>
+
+    </div>
+}

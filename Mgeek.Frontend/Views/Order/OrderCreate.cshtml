@@ -1,0 +1,108 @@
+@model Mgeek.Frontend.Models.OrderAPI.OrderVM
+
+<form method="post" enctype="multipart/form-data" asp-action="OrderCreate" id="form">
+    <div class="container">
+        <div class="col-xl-12">
+            <div class="row">
+                <div class="col-xl-1">
+
+                </div>
+                <div class="col-xl-4 col-2">
+                    <h1 class="mt-1 mx-xl-4"> Placing an order</h1>
+                </div>
+                <div class="col-xl-2">
+
+                </div>
+                <div class="col-xl-5 col-8 mt-xl-0 mt-3">
+                    @{
+                        int amountProduct = 0;
+                        @foreach (var item in Model.Cart!.CartDetails!)
+                        {
+                            amountProduct += item.Count;
+                        }
+                    }
+                    <h6 class="mt-xl-4">@amountProduct product, @($"{Model.Cart.CartHeader!.CartTotal:c}")</h6>
+                </div>
+            </div>
+            @foreach (var item in Model.Cart.CartDetails!)
+            {
+                <div class="row mt-3 mt-xl-0">
+                    <div class="col-xl-1">
+
+                    </div>
+                    <div class="col-xl-8 col-12">
+                        <div class="card border-0">
+                            <div class="row">
+                                <div class="col-xl-3 mt-xl-3 mb-xl-3 col-4">
+                                    <a style="text-decoration: none" asp-controller="Product" asp-action="ChooseDetailPageForProduct" asp-route-id="@item.Product!.Id">
+                                        <img src="@item.Product!.ImageUrl" class="rounded" width="100%"/>
+                                    </a>
+                                </div>
+                                <div class="col-xl-9 mt-xl-3 col-8 mt-3">
+                                    <a style="text-decoration: none" asp-controller="Product" asp-action="ChooseDetailPageForProduct" asp-route-id="@item.Product!.Id">
+                                        <h4 class="mt-xl-2" style="color: black">@item.Product.Name</h4>
+                                    </a>
+                                    <h6 class="mt-xl-4 d-none d-sm-block">@(item.Product!.Description!.Substring(0, Math.Min(item.Product.Description.Length, 350)))...</h6>
+                                    <h4 class="mt-xl-4" style="color:black">@($"{item.Product.Price:c}") x @item.Count</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 d-none d-sm-block">
+
+                    </div>
+                </div>
+            }
+        </div>
+        <div class="row">
+            <div class="col-xl-1">
+
+            </div>
+            <div class="col-xl-8 mx-xl-4">
+                <h4 class="text-black">Placing an order</h4>
+                <h5 class="text-black-50" style="text-transform: none;">Please fill in all fields*</h5>
+                <input placeholder="Surname" asp-for="@Model.Surname" class="form-control mb-3 mt-3"/>
+                <input placeholder="Name" asp-for="@Model.Name" class="form-control mb-2"/>
+                <input placeholder="Country" class="form-control mb-2"/>
+                <input placeholder="City" class="form-control mb-2"/>
+                <input placeholder="Address" asp-for="@Model.Address" class="form-control mb-2"/>
+                <input placeholder="Phone number" asp-for="@Model.NumberPhone" class="form-control mb-2"/>
+            </div>
+            <div class="col-xl-3">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xl-1">
+
+            </div>
+            <div class="col-xl-3 mx-xl-4 mt-xl-4">
+                <h4 class="text-black">Delivery details</h4>
+                <h5 class="text-black-50" style="text-transform: none;">Select suitable delivery*</h5>
+                <select class="mt-xl-1" style="background-color: transparent; width: 250px; border-color: grey; border-top: none; border-right: none; border-left: none; font-size: 20px;">
+                    <option style="background-color: transparent" value="">CDEK</option>
+                    <option style="background-color: transparent" value="Apple">EMS</option>
+                    <option style="background-color: transparent" value="Honor">Amazon</option>
+                </select>
+                <h4 class="mt-xl-3">Delivery 500 rubles</h4>
+                <h4 class="">4-10 Day's</h4>
+            </div>
+            <div class="col-xl-1">
+
+            </div>
+            <div class="col-xl-4 text-end mt-xl-5 px-xl-5">
+                @if (Model.Cart.CartHeader.PromoCode != "")
+                {
+                    <h4 class="text-success">Discount: @($"{Model.Cart.CartHeader!.Discount:c}")</h4>
+                }
+                <h4 class="text-dark">Total Sum: @($"{Model.Cart.CartHeader!.CartTotal:c}")</h4>
+                <button type="submit" class="w-50 btn btn-outline-dark text-center mt-xl-1 mb-xl-3 mb-3">Checkout</button>
+            </div>
+            <div class="col-xl-1">
+                
+            </div>
+        </div>
+
+    </div>
+</form>

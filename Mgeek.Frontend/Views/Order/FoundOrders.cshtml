@@ -1,0 +1,63 @@
+@using System.Globalization
+@model List<Mgeek.Frontend.Models.OrderAPI.OrderDto>
+
+<div class="container mb-2">
+    <form method="post" enctype="multipart/form-data" asp-action="FoundOrders">
+        <div class="row">
+            <div class="col-xl-4 offset-xl-4">
+                <input class="form-control" placeholder="User number phone" type="text" name="numberPhone"/>
+                <input type="submit" class="form-control btn btn-outline-primary text-center w-100 mt-xl-2" value="Find"/>
+            </div>
+        </div>
+    </form>
+</div>
+
+<div class="container">
+    @if (Model != null)
+    {
+        @foreach (var orderDto in Model)
+        {
+            <div class="card" style="border-left: none; border-right: none">
+                <a style="text-decoration: none" asp-controller="Order" asp-action="OrderDetail" asp-route-orderId="@orderDto.OrderHeaderDto!.Id">
+                    <div class="card-header" style="background-color: white;">
+                        <div class="row">
+                            <div class="col-xl-6 text-start mt-1">
+                                <h3 class="text-dark" style="text-transform: none">Order #@orderDto.OrderHeaderDto.Id For @($"{orderDto.OrderHeaderDto.Sum:C}")</h3>
+                                <h4 class="text-success" style="text-transform: none">Issued on @orderDto.OrderHeaderDto.OrderDate.ToString("MMMM d, yyyy", CultureInfo.CreateSpecificCulture("en-US"))</h4>
+                            </div>
+                            <div class="col-xl-6 mt-1 text-end">
+                                @switch (@orderDto.OrderHeaderDto.Status)
+                                {
+                                    case "Order processed":
+                                        <h5 class="text-success">@orderDto.OrderHeaderDto.Status</h5>
+                                        break;
+                                    case "Promo code has expired":
+                                        <h5 class="text-danger">@orderDto.OrderHeaderDto.Status</h5>
+                                        break;
+                                    case "One of the products is out of stock":
+                                        <h5 class="text-danger">@orderDto.OrderHeaderDto.Status</h5>
+                                        break;
+                                }
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="col-xl-12">
+                            <div class="row">
+                                @foreach (var orderDetail in orderDto!.OrderDetailsDto!)
+                                {
+                                    <div class="col-xl-2 col-4">
+                                        <img src="@orderDetail.ProductDto!.ImageUrl" class="rounded" width="100%" alt="Product image"/>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <br/>
+            <br/>
+            <br/>
+        }
+    }
+</div>

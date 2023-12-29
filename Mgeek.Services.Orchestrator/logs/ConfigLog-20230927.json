@@ -1,0 +1,15 @@
+2023-09-27 00:46:19.753 +08:00 [INF] Token updated
+2023-09-27 00:47:14.397 +08:00 [INF] Token updated
+2023-09-27 00:47:54.288 +08:00 [INF] Order listened to => {"OrderHeaderDto":{"Id":0,"UserId":"e859fa1f-516c-4c7e-8b56-89f967ae6b1e","OrderDate":"2023-09-27T00:47:54.1663674+08:00","Sum":205990.0,"Name":null,"Surname":null,"Address":null,"Promocode":null,"Status":"Under review","$type":"OrderHeaderDto"},"OrderDetailsDto":[{"Id":0,"ProductId":106,"ProductDto":null,"Amount":1,"$type":"OrderDetailsDto"},{"Id":0,"ProductId":1,"ProductDto":null,"Amount":1,"$type":"OrderDetailsDto"}],"$type":"OrderDto"}
+2023-09-27 00:47:54.410 +08:00 [INF] There are not enough goods in stock
+2023-09-27 00:47:54.468 +08:00 [INF] Order status after checking: 'One of the products is out of stock'
+2023-09-27 00:48:28.521 +08:00 [INF] Order listened to => {"OrderHeaderDto":{"Id":0,"UserId":"e859fa1f-516c-4c7e-8b56-89f967ae6b1e","OrderDate":"2023-09-27T00:48:28.5152125+08:00","Sum":205990.0,"Name":null,"Surname":null,"Address":null,"Promocode":null,"Status":"Under review","$type":"OrderHeaderDto"},"OrderDetailsDto":[{"Id":0,"ProductId":106,"ProductDto":null,"Amount":1,"$type":"OrderDetailsDto"},{"Id":0,"ProductId":1,"ProductDto":null,"Amount":1,"$type":"OrderDetailsDto"}],"$type":"OrderDto"}
+2023-09-27 00:48:28.594 +08:00 [INF] All products are reduced in stock
+2023-09-27 00:48:28.600 +08:00 [INF] Order status after checking: 'Order processed'
+2023-09-27 00:49:42.052 +08:00 [INF] Token updated
+2023-09-27 00:50:37.183 +08:00 [INF] Token updated
+2023-09-27 00:51:03.463 +08:00 [INF] Token updated
+2023-09-27 12:56:45.709 +08:00 [INF] Token updated
+2023-09-27 12:56:45.803 +08:00 [INF] Order listened to => {"OrderHeaderDto":{"Id":0,"UserId":"e859fa1f-516c-4c7e-8b56-89f967ae6b1e","OrderDate":"2023-09-27T12:56:35.2168490+08:00","Sum":195990.0,"Name":null,"Surname":null,"Address":null,"Promocode":"OFF","Status":"Under review","$type":"OrderHeaderDto"},"OrderDetailsDto":[{"Id":0,"ProductId":106,"ProductDto":null,"Amount":1,"$type":"OrderDetailsDto"},{"Id":0,"ProductId":1,"ProductDto":null,"Amount":1,"$type":"OrderDetailsDto"}],"$type":"OrderDto"}
+2023-09-27 12:56:45.921 +08:00 [INF] Promocode 'OFF' ended or not found
+2023-09-27 12:56:45.963 +08:00 [INF] Order status after checking: 'Promo code has expired'

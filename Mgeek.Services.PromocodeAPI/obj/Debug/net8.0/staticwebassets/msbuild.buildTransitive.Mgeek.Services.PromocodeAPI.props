@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/Mgeek.Services.PromocodeAPI.props" />
+</Project>

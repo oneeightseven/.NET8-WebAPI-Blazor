@@ -1,0 +1,55 @@
+@model Mgeek.Frontend.Models.PromoAPI.PromocodeDto
+<div class="container">
+    <form method="post" enctype="multipart/form-data" asp-action="UpsertPromo" id="form">
+        <div class="p-3">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group row">
+                <h2 class="text-secondary pl-3 text-center mb-4">Upsert promo code</h2>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <input asp-for="@Model!.Id" hidden/>
+
+                    <div class="form-group row">
+                        <div class="offset-xl-3 col-xl-6 col-12 input-box">
+                            <input data-required="true" asp-for="@Model!.Name" placeholder="Name" class="form-control"/>
+                        </div>
+                    </div>
+                    <br/>
+                
+                    <div class="form-group row">
+                        <div class="offset-xl-3 col-xl-6 col-12 input-box">
+                            <input data-required="true" asp-for="@Model!.Remainder" placeholder="Remainder" class="form-control"/>
+                        </div>
+                    </div>
+                    <br/>
+                
+                    <div class="form-group row">
+                        <div class="offset-xl-3 col-xl-6 col-12 input-box">
+                            <input data-required="true" asp-for="@Model!.SumDiscount" placeholder="Sum Discount" class="form-control"/>
+                        </div>
+                    </div>
+                    <br/>
+                    
+                    <div class="form-group row">
+                        <div class="offset-xl-3 col-xl-6 col-12 input-box">
+                            <input data-required="true" asp-for="@Model!.MinAmount" placeholder="Min Amount" class="form-control"/>
+                        </div>
+                    </div>
+                    <br/>
+                
+
+                    <div class="form-group row">
+                        <div class="offset-xl-6 col-xl-3 offset-3 col-6 row">
+
+                            <div class="col">
+                                <input type="submit" class="form-control btn btn-outline-primary text-center w-100" value="Upsert"/>
+                            </div>
+                            <br/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

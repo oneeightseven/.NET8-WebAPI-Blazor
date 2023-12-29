@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Mgeek.Services.ProductAPI.props" />
+</Project>

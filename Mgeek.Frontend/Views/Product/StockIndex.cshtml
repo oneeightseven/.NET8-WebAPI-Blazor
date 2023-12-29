@@ -1,0 +1,22 @@
+@model IEnumerable<Mgeek.Frontend.Models.ProductAPI.StockDto>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xl-12 text-center">
+            <h2>Remaining goods in stock</h2>
+        </div>
+        @foreach (var product in Model)
+        {
+            <div class="col-xl-2 text-center">
+                <br/>
+                <h7 hidden="">@product.ProductId</h7>
+                <img src="@product.Product!.ImageUrl" class="rounded" width="100%"/>
+                <h6>@product.Product.Name</h6>
+                <h4>@product.Amount</h4>
+                <a asp-action="StockUpdate" asp-route-productId="@product.ProductId">
+                    <button class="w-100 btn btn-outline-dark text-center">Update</button>
+                </a>
+            </div>
+        }
+    </div>
+</div>

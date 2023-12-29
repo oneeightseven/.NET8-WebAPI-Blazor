@@ -1,0 +1,11 @@
+.git
+.idea
+Mgeek.Frontend/appsettings.json
+Mgeek.Services.AuthAPI/appsettings.json
+Mgeek.Services.OrderAPI/appsettings.json
+Mgeek.Services.Orchestrator/appsettings.json
+Mgeek.Services.OrderAPI/appsettings.json
+Mgeek.Services.ProductAPI/appsettings.json
+Mgeek.Services.PromocodeAPI/appsettings.json
+Mgeek.Services.ShoppingCartAPI/appsettings.json
+
