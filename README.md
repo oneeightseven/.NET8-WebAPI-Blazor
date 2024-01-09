@@ -14,7 +14,7 @@ in warehouses, and promotional codes.You can also use the admin panel to find an
 by customer phone number.
 
 
-The web application consists of 5 APIs:
+The web application consists of 6 APIs:
 - Authentication API(JWT bearer).
 - Product API, it is where the interaction of products and their residues occurs..
 - Promocode API, well, these are just promotional codes...
