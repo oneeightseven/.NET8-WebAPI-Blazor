@@ -23,7 +23,7 @@ The web application consists of 5 APIs:
 - Orchestrator, a service that validates the user’s order. Initially, it receives a 
   “dirty” order, validates it using other APIs, and returns a “clean” order to the queue.
 
-![scheme](https://imagess.hb.ru-msk.vkcs.cloud/Blazor%20%2B%20NET.png)
+![scheme](https://imagess.hb.ru-msk.vkcs.cloud/Blaze.png)
 
 <h3 align="left">Technology stack used on the server side</h3>
 
