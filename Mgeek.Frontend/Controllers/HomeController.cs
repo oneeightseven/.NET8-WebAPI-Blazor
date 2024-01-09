@@ -17,10 +17,7 @@ public class HomeController : Controller
     }
     
     [HttpGet]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-    }
+    public IActionResult Error() => View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     
     [HttpGet]
     public async Task<IActionResult> Index()

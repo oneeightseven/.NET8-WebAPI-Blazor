@@ -1,5 +1,6 @@
 using System.Text;
 using System.Text.Json;
+using Mgeek.Services.Orchestrator.Models;
 using Mgeek.Services.Orchestrator.Service.IService;
 using RabbitMQ.Client;
 
@@ -11,10 +12,10 @@ public class MessageProducer : IMessageProducer
     {
         var factory = new ConnectionFactory()
         {
-            HostName = "localhost",
-            UserName = "guest",
-            Password = "guest",
-            VirtualHost = "/",
+            HostName = RabbitAccount.HostName,
+            UserName = RabbitAccount.UserName,
+            Password = RabbitAccount.Password,
+            VirtualHost = RabbitAccount.VirtualHost,
         };
         var connection = factory.CreateConnection();
 

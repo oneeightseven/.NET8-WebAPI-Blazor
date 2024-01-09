@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Security.Claims;
 using AutoMapper;
 using Mgeek.Services.OrderAPI.Data;
 using Mgeek.Services.OrderAPI.Extensions;
@@ -22,7 +20,6 @@ public class OrderController : ControllerBase
     private readonly ResponseDto _response;
     private readonly ApplicationDbContext _context;
     private readonly IProductService _productService;
-
     public OrderController(ApplicationDbContext context, IProductService productService, IMapper mapper,
         ICacheService cache)
     {
@@ -186,7 +183,6 @@ public class OrderController : ControllerBase
         }
         return _response;
     }
-    //TODO Переделать два этих метода в один
     private async Task<List<OrderDetails>> GetDetails(IEnumerable<OrderHeader> orderHeaders, IEnumerable<ProductDto> products)
     {
         var orderDetails = await _context.OrderDetails.AsNoTracking().Where(x => orderHeaders.Contains(x.OrderHeader!)).ToListAsync();

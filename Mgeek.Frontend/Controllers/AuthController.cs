@@ -21,11 +21,7 @@ public class AuthController : Controller
     }
     
     [HttpGet]
-    public IActionResult Login()
-    {
-        LoginRequestDto loginRequestDto = new();
-        return View(loginRequestDto);
-    }
+    public IActionResult Login() => View(new LoginRequestDto());
     
     [HttpPost]
     public async Task<IActionResult> Login(LoginRequestDto model)
@@ -46,10 +42,7 @@ public class AuthController : Controller
     } 
     
     [HttpGet]
-    public IActionResult Register()
-    {
-        return View();
-    }
+    public IActionResult Register() => View();
     
     [HttpPost]
     public async Task<IActionResult> Register(RegistrationRequestDto model)
@@ -68,10 +61,7 @@ public class AuthController : Controller
     }
     
     [HttpGet]
-    public IActionResult PersonalArea()
-    {
-        return View();
-    }
+    public IActionResult PersonalArea() => View();
     
     [HttpGet]
     public async Task<IActionResult> Logout()

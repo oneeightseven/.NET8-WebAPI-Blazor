@@ -7,7 +7,7 @@ using Newtonsoft.Json;
 
 namespace Mgeek.Frontend.Controllers;
 
-[Authorize(Roles=WC.RoleAdmin)]
+[Authorize]
 public class PromoController : Controller
 {
     private readonly IPromoService _promoService;
@@ -28,7 +28,7 @@ public class PromoController : Controller
         }
         else
         {
-            ViewBag.Message = "Promo api doesn't work or promo missing";
+            ViewBag.Message = "promo missing";
             return View();
         }
     }

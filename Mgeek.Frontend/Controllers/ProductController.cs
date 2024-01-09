@@ -101,10 +101,7 @@ public class ProductController : Controller
     
     [HttpGet]
     [Authorize(Roles=WC.RoleAdmin)]
-    public IActionResult ChooseProduct()
-    {
-        return View();
-    }
+    public IActionResult ChooseProduct() => View();
     
     [HttpGet]
     [Authorize(Roles=WC.RoleAdmin)]

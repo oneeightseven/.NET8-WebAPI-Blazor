@@ -16,8 +16,6 @@ public class OrderController : Controller
     private readonly ICartService _cartService;
     private readonly IMessageProducer _messageProducer;
     private readonly IToastNotification _notifications;
-
-
     public OrderController(IOrderService orderService, ICartService cartService, IMessageProducer messageProducer, IToastNotification notifications)
     {
         _orderService = orderService;
@@ -27,16 +25,10 @@ public class OrderController : Controller
     }
 
     [HttpGet]
-    public IActionResult FoundOrders()
-    {
-        return View();
-    }
+    public IActionResult FoundOrders() => View();
 
     [HttpGet]
-    public IActionResult OrderSuccess()
-    {
-        return View();
-    }
+    public IActionResult OrderSuccess() => View();
     
     [HttpGet]
     public async Task<IActionResult> OrderIndex()

@@ -226,8 +226,8 @@ public class ProductApiController : ControllerBase
                 var product = await _context.Products.AsNoTracking().FirstOrDefaultAsync(x => x.Id == id); 
                 if (product != null) 
                 {
-                    _response.Result = _mapper.Map<ProductDto>(product!); 
-                    _cache.Set($"product{id}", _response.Result, DateTimeOffset.Now.AddMinutes(20)); 
+                    _response.Result = product; 
+                    _cache.Set($"product{id}", product, DateTimeOffset.Now.AddMinutes(20)); 
                 }
                 else
                 {

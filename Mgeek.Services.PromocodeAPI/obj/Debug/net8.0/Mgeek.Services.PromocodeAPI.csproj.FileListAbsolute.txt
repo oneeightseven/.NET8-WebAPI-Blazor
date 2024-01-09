@@ -177,3 +177,5 @@
 /home/oneeightseven/Mgeek/Mgeek.Services.PromocodeAPI/bin/Debug/net8.0/StackExchange.Redis.dll
 /home/oneeightseven/Mgeek/Mgeek.Services.PromocodeAPI/bin/Debug/net8.0/logs/ConfigLog-20231029.json
 /home/oneeightseven/Mgeek/Mgeek.Services.PromocodeAPI/bin/Debug/net8.0/logs/ConfigLog-20231116.json
+/home/oneeightseven/Mgeek/Mgeek.Services.PromocodeAPI/obj/Debug/net8.0/Mgeek.Services.PromocodeAPI.sourcelink.json
+/home/oneeightseven/Mgeek/Mgeek.Services.PromocodeAPI/bin/Debug/net8.0/logs/ConfigLog-20240108.json

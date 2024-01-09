@@ -507,3 +507,4 @@
 /home/oneeightseven/Mgeek/Mgeek.Frontend/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
 /home/oneeightseven/Mgeek/Mgeek.Frontend/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
 /home/oneeightseven/Mgeek/Mgeek.Frontend/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/oneeightseven/Mgeek/Mgeek.Frontend/obj/Debug/net8.0/Mgeek.Frontend.sourcelink.json

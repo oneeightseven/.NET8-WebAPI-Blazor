@@ -1,10 +1,16 @@
 using Mgeek.Services.Orchestrator;
+using Mgeek.Services.Orchestrator.Models;
 using Mgeek.Services.Orchestrator.Service;
 using Mgeek.Services.Orchestrator.Service.IService;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
+
+RabbitAccount.HostName = builder.Configuration["RabbitAccount:HostName"]!;
+RabbitAccount.UserName = builder.Configuration["RabbitAccount:UserName"]!;
+RabbitAccount.Password = builder.Configuration["RabbitAccount:Password"]!;
+RabbitAccount.VirtualHost = builder.Configuration["RabbitAccount:VirtualHost"]!;
 
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
@@ -13,13 +19,16 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         options.LoginPath = "/Auth/Login";
         options.AccessDeniedPath = "/Auth/AccessDenied";
     });
+
 builder.Services.AddHttpClient("Auth", x => x.BaseAddress = new Uri(builder.Configuration["ServiceUrls:AuthAPI"]!));
-builder.Services.AddScoped<IAuthService, AuthService>();
-builder.Services.AddScoped<IMessageProducer, MessageProducer>();
 builder.Services.AddHttpClient("Promo", x => x.BaseAddress = new Uri(builder.Configuration["ServiceUrls:PromoAPI"]!));
-builder.Services.AddScoped<IPromoService, PromoService>();
 builder.Services.AddHttpClient("Product", x => x.BaseAddress = new Uri(builder.Configuration["ServiceUrls:ProductAPI"]!));
+builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<IPromoService, PromoService>();
 builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<IMessageProducer, MessageProducer>();
+
+
 builder.Services.AddHostedService<OrderBgService>();
 
 builder.Services.AddControllers();

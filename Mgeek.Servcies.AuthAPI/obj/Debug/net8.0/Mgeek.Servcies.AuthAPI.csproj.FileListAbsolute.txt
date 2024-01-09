@@ -158,3 +158,4 @@
 /home/oneeightseven/Mgeek/Mgeek.Servcies.AuthAPI/obj/Debug/net8.0/Mgeek.Servcies.AuthAPI.pdb
 /home/oneeightseven/Mgeek/Mgeek.Servcies.AuthAPI/obj/Debug/net8.0/Mgeek.Servcies.AuthAPI.genruntimeconfig.cache
 /home/oneeightseven/Mgeek/Mgeek.Servcies.AuthAPI/obj/Debug/net8.0/ref/Mgeek.Servcies.AuthAPI.dll
+/home/oneeightseven/Mgeek/Mgeek.Servcies.AuthAPI/obj/Debug/net8.0/Mgeek.Servcies.AuthAPI.sourcelink.json

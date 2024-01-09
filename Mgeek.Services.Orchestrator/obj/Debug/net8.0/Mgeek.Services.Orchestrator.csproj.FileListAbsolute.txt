@@ -82,3 +82,6 @@
 /home/oneeightseven/Mgeek/Mgeek.Services.Orchestrator/bin/Debug/net8.0/logs/ConfigLog-20231029.json
 /home/oneeightseven/Mgeek/Mgeek.Services.Orchestrator/bin/Debug/net8.0/logs/ConfigLog-20231102.json
 /home/oneeightseven/Mgeek/Mgeek.Services.Orchestrator/bin/Debug/net8.0/logs/ConfigLog-20231113.json
+/home/oneeightseven/Mgeek/Mgeek.Services.Orchestrator/obj/Debug/net8.0/Mgeek.Services.Orchestrator.sourcelink.json
+/home/oneeightseven/Mgeek/Mgeek.Services.Orchestrator/bin/Debug/net8.0/logs/ConfigLog-20240108.json
+/home/oneeightseven/Mgeek/Mgeek.Services.Orchestrator/bin/Debug/net8.0/logs/ConfigLog-20240109.json

@@ -21,7 +21,7 @@ public class AuthService : IAuthService
     {
         LoginRequestDto loginRequest = new()
         {
-            UserName = "eblan228@mail.ru",
+            UserName = "d1s8h7h@vk.com",
             Password = "123Mudak228!"
         };
         var client = _httpClient.CreateClient("Orkestrator");

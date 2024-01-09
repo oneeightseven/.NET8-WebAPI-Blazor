@@ -26,7 +26,12 @@ public class OrderBgService : BackgroundService
         while (!stoppingToken.IsCancellationRequested)
         {
             var factory = new ConnectionFactory()
-                { HostName = "localhost", UserName = "guest", Password = "guest", VirtualHost = "/", };
+            {
+                HostName = RabbitAccount.HostName,
+                UserName = RabbitAccount.UserName,
+                Password = RabbitAccount.Password,
+                VirtualHost = RabbitAccount.VirtualHost,
+            };
             var connection = factory.CreateConnection();
             using var channel = connection.CreateModel();
             channel.QueueDeclare("verified_order_queue", durable: true, exclusive: false);
