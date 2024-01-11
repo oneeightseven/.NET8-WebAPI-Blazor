@@ -1,5 +1,3 @@
-using Mgeek.Frontend.Models.ProductAPI;
-
 namespace Mgeek.Frontend.Models.OrderAPI;
 
 public class OrderDetailsDto

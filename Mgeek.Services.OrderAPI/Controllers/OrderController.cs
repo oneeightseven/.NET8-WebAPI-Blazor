@@ -1,13 +1,4 @@
-using AutoMapper;
-using Mgeek.Services.OrderAPI.Data;
-using Mgeek.Services.OrderAPI.Extensions;
 using Mgeek.Services.OrderAPI.Models;
-using Mgeek.Services.OrderAPI.Models.Dto;
-using Mgeek.Services.OrderAPI.Service.IService;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Serilog;
 
 namespace Mgeek.Services.OrderAPI.Controllers;
 

@@ -1,7 +1,3 @@
-using Mgeek.Servcies.AuthAPI.Models.DTO;
-using Mgeek.Servcies.AuthAPI.Service.IService;
-using Microsoft.AspNetCore.Mvc;
-
 namespace Mgeek.Servcies.AuthAPI.Controllers;
 
 [Route("api/AuthAPI")]

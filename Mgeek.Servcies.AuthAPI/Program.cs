@@ -1,10 +1,3 @@
-using Mgeek.Servcies.AuthAPI.Data;
-using Mgeek.Servcies.AuthAPI.Models;
-using Mgeek.Servcies.AuthAPI.Service;
-using Mgeek.Servcies.AuthAPI.Service.IService;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-
 var builder = WebApplication.CreateSlimBuilder(args);
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>

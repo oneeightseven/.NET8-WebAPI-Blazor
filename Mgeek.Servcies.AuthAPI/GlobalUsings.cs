@@ -1,0 +1,14 @@
+global using Mgeek.Servcies.AuthAPI.Data;
+global using Mgeek.Servcies.AuthAPI.Models;
+global using Mgeek.Servcies.AuthAPI.Service;
+global using Mgeek.Servcies.AuthAPI.Service.IService;
+global using Microsoft.AspNetCore.Identity;
+global using Microsoft.EntityFrameworkCore;
+global using System.IdentityModel.Tokens.Jwt;
+global using System.Security.Claims;
+global using System.Text;
+global using Microsoft.Extensions.Options;
+global using Microsoft.IdentityModel.Tokens;
+global using Mgeek.Servcies.AuthAPI.Models.DTO;
+global using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+global using Microsoft.AspNetCore.Mvc;

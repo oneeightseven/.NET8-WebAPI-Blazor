@@ -1,6 +1,4 @@
 using Newtonsoft.Json;
-using Mgeek.Services.ShoppingCartAPI.Models.Dto;
-using Mgeek.Services.ShoppingCartAPI.Service.IService;
 
 namespace Mgeek.Services.ShoppingCartAPI.Service;
 

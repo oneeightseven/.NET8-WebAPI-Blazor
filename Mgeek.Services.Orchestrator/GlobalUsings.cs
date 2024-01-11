@@ -1,0 +1,14 @@
+global using System.Text;
+global using Microsoft.AspNetCore.Mvc;
+global using Mgeek.Services.Orchestrator;
+global using Mgeek.Services.Orchestrator.Models;
+global using Mgeek.Services.Orchestrator.Service;
+global using Mgeek.Services.Orchestrator.Service.IService;
+global using Microsoft.AspNetCore.Authentication.Cookies;
+global using Serilog;
+global using Mgeek.Services.Orchestrator.Models.OrderAPI;
+global using Mgeek.Services.Orchestrator.Models.ProductAPI;
+global using RabbitMQ.Client;
+global using RabbitMQ.Client.Events;
+global using System.Text.Json;
+global using Mgeek.Services.Orchestrator.Models.AuthAPI;

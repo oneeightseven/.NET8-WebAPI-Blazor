@@ -1,9 +1,3 @@
-using Mgeek.Frontend.Service;
-using Mgeek.Frontend.Service.IService;
-using Mgeek.Frontend.Utility;
-using Microsoft.AspNetCore.Authentication.Cookies;
-using NToastNotify;
-
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddRazorPages().AddNToastNotifyNoty(new NotyOptions

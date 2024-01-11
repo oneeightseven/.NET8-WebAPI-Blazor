@@ -1,10 +1,3 @@
-using Mgeek.Services.Orchestrator;
-using Mgeek.Services.Orchestrator.Models;
-using Mgeek.Services.Orchestrator.Service;
-using Mgeek.Services.Orchestrator.Service.IService;
-using Microsoft.AspNetCore.Authentication.Cookies;
-using Serilog;
-
 var builder = WebApplication.CreateBuilder(args);
 
 RabbitAccount.HostName = builder.Configuration["RabbitAccount:HostName"]!;

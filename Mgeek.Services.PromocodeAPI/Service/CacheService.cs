@@ -1,7 +1,3 @@
-using System.Text.Json;
-using Mgeek.Services.PromocodeAPI.Service.IService;
-using StackExchange.Redis;
-
 namespace Mgeek.Services.PromocodeAPI.Service;
 
 public class CacheService : ICacheService

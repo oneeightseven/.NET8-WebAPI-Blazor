@@ -1,6 +1,5 @@
 using AutoMapper;
-using Mgeek.Services.ShoppingCartAPI.Models;
-using Mgeek.Services.ShoppingCartAPI.Models.Dto;
+
 
 namespace Mgeek.Services.ShoppingCartAPI;
 

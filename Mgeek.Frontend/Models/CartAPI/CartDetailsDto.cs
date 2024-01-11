@@ -1,5 +1,3 @@
-using Mgeek.Frontend.Models.ProductAPI;
-
 namespace Mgeek.Frontend.Models.CartAPI;
 
 public class CartDetailsDto

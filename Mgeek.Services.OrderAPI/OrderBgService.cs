@@ -1,12 +1,5 @@
-using System.Text;
-using AutoMapper;
-using Mgeek.Services.OrderAPI.Data;
 using Mgeek.Services.OrderAPI.Models;
-using Mgeek.Services.OrderAPI.Models.Dto;
 using Newtonsoft.Json;
-using RabbitMQ.Client;
-using RabbitMQ.Client.Events;
-using Serilog;
 
 namespace Mgeek.Services.OrderAPI;
 
@@ -46,7 +39,7 @@ public class OrderBgService : BackgroundService
             await Task.Delay(90000);
         }
     }
-    private Order ConvertOrder(BasicDeliverEventArgs eventArgs)
+    private Models.Order ConvertOrder(BasicDeliverEventArgs eventArgs)
     {
         var body = eventArgs.Body.ToArray();
         var orderString = Encoding.UTF8.GetString(body).ToString();
@@ -59,7 +52,7 @@ public class OrderBgService : BackgroundService
             var result = _mapper.Map<OrderDetails>(item);
             orderDetails.Add(result);
         }
-        Order order = new()
+        Models.Order order = new()
         {
             OrderHeader = orderHeader,
             OrderDetails = orderDetails
@@ -67,7 +60,7 @@ public class OrderBgService : BackgroundService
         
         return order;
     }
-    private void InsertOrderHeader(Order order)
+    private void InsertOrderHeader(Models.Order order)
     {
         using (IServiceScope scope = _serviceProvider.CreateScope())
         {
@@ -77,7 +70,7 @@ public class OrderBgService : BackgroundService
             Log.Information("Order header => {@OrderDto} added in the database", order.OrderHeader);
         }
     }
-    private void InsertProductDetails(Order order)
+    private void InsertProductDetails(Models.Order order)
     {
         using (IServiceScope scope = _serviceProvider.CreateScope())
         {

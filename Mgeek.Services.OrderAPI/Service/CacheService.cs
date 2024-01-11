@@ -1,6 +1,4 @@
-using Mgeek.Services.OrderAPI.Service.IService;
 using StackExchange.Redis;
-using System.Text.Json;
 
 namespace Mgeek.Services.OrderAPI.Service;
 

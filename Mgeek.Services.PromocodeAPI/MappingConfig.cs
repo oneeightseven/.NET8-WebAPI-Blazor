@@ -1,7 +1,3 @@
-using AutoMapper;
-using Mgeek.Services.PromocodeAPI.Models;
-using Mgeek.Services.PromocodeAPI.Models.Dto;
-
 namespace Mgeek.Services.PromocodeAPI;
 
 public class MappingConfig

@@ -1,10 +1,3 @@
-using System.Diagnostics;
-using Microsoft.AspNetCore.Mvc;
-using Mgeek.Frontend.Models;
-using Mgeek.Frontend.Models.ProductAPI;
-using Mgeek.Frontend.Service.IService;
-using Newtonsoft.Json;
-
 namespace Mgeek.Frontend.Controllers;
 
 public class HomeController : Controller

@@ -1,5 +1,3 @@
-using Mgeek.Services.OrderAPI.Models.Dto;
-using Mgeek.Services.OrderAPI.Service.IService;
 using Newtonsoft.Json;
 
 namespace Mgeek.Services.OrderAPI.Service;

@@ -1,7 +1,3 @@
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using Mgeek.Services.ShoppingCartAPI.Models.Dto;
-
 namespace Mgeek.Services.ShoppingCartAPI.Models;
 
 [Table("CartDetails")]

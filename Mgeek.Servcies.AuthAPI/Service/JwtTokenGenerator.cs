@@ -1,11 +1,3 @@
-using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
-using System.Text;
-using Mgeek.Servcies.AuthAPI.Models;
-using Mgeek.Servcies.AuthAPI.Service.IService;
-using Microsoft.Extensions.Options;
-using Microsoft.IdentityModel.Tokens;
-
 namespace Mgeek.Servcies.AuthAPI.Service;
 
 public class JwtTokenGenerator : IJwtTokenGenerator

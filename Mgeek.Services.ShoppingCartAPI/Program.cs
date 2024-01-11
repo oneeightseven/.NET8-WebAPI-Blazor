@@ -1,14 +1,3 @@
-using AutoMapper;
-using Mgeek.Services.ShoppingCartAPI;
-using Mgeek.Services.ShoppingCartAPI.Data;
-using Mgeek.Services.ShoppingCartAPI.Extensions;
-using Mgeek.Services.ShoppingCartAPI.Service;
-using Mgeek.Services.ShoppingCartAPI.Service.IService;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.OpenApi.Models;
-using Serilog;
-
 var builder = WebApplication.CreateSlimBuilder(args);
 
 IdentityClaims.Sub = builder.Configuration["IdentityClaims:Sub"]!;

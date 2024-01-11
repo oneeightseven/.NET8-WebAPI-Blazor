@@ -1,7 +1,3 @@
-using System.Text.Json;
-using Mgeek.Services.ShoppingCartAPI.Service.IService;
-using StackExchange.Redis;
-
 namespace Mgeek.Services.ShoppingCartAPI.Service;
 
 public class CacheService : ICacheService

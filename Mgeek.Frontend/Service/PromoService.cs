@@ -1,8 +1,3 @@
-using Mgeek.Frontend.Models;
-using Mgeek.Frontend.Models.PromoAPI;
-using Mgeek.Frontend.Service.IService;
-using Mgeek.Frontend.Utility;
-
 namespace Mgeek.Frontend.Service;
 public class PromoService : IPromoService
 {

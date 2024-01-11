@@ -1,14 +1,3 @@
-using AutoMapper;
-using Mgeek.Services.PromocodeAPI;
-using Mgeek.Services.PromocodeAPI.Data;
-using Mgeek.Services.PromocodeAPI.Extensions;
-using Mgeek.Services.PromocodeAPI.Service;
-using Mgeek.Services.PromocodeAPI.Service.IService;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.OpenApi.Models;
-using Serilog;
-
 var builder = WebApplication.CreateSlimBuilder(args);
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>

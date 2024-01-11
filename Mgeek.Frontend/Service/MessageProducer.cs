@@ -1,8 +1,3 @@
-using System.Text;
-using System.Text.Json;
-using Mgeek.Frontend.Service.IService;
-using RabbitMQ.Client;
-
 namespace Mgeek.Frontend.Service;
 
 public class MessageProducer : IMessageProducer
@@ -22,7 +17,7 @@ public class MessageProducer : IMessageProducer
 
         channel.QueueDeclare("unverified_order_queue", durable: true, exclusive: false);
 
-        var jsonString = JsonSerializer.Serialize(message);
+        var jsonString = System.Text.Json.JsonSerializer.Serialize(message);
         var body = Encoding.UTF8.GetBytes(jsonString);
         
         channel.BasicPublish("", "unverified_order_queue", body:body);

@@ -1,5 +1,3 @@
-using System.ComponentModel.DataAnnotations;
-
 namespace Mgeek.Frontend.Models.AuthAPI;
 
 public class RegistrationRequestDto

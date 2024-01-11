@@ -1,5 +1,3 @@
-using Mgeek.Frontend.Models.CartAPI;
-
 namespace Mgeek.Frontend.Models.OrderAPI;
 
 public class OrderVM

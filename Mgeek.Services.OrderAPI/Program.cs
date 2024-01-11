@@ -1,12 +1,4 @@
-using AutoMapper;
-using Mgeek.Services.OrderAPI;
-using Mgeek.Services.OrderAPI.Data;
-using Mgeek.Services.OrderAPI.Extensions;
 using Mgeek.Services.OrderAPI.Models;
-using Mgeek.Services.OrderAPI.Service;
-using Mgeek.Services.OrderAPI.Service.IService;
-using Microsoft.EntityFrameworkCore;
-using Serilog;
 
 var builder = WebApplication.CreateSlimBuilder(args);
 

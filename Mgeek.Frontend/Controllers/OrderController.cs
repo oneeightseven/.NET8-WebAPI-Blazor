@@ -1,12 +1,3 @@
-using Mgeek.Frontend.Models.CartAPI;
-using Mgeek.Frontend.Models.OrderAPI;
-using Mgeek.Frontend.Service.IService;
-using Mgeek.Frontend.Utility;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
-using NToastNotify;
-
 namespace Mgeek.Frontend.Controllers;
 
 [Authorize]

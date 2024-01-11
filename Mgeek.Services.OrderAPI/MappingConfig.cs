@@ -1,6 +1,4 @@
-using AutoMapper;
 using Mgeek.Services.OrderAPI.Models;
-using Mgeek.Services.OrderAPI.Models.Dto;
 
 namespace Mgeek.Services.OrderAPI;
 

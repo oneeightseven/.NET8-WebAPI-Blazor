@@ -1,10 +1,3 @@
-using Mgeek.Servcies.AuthAPI.Data;
-using Mgeek.Servcies.AuthAPI.Models;
-using Mgeek.Servcies.AuthAPI.Models.DTO;
-using Mgeek.Servcies.AuthAPI.Service.IService;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-
 namespace Mgeek.Servcies.AuthAPI.Service;
 
 public class AuthService : IAuthService

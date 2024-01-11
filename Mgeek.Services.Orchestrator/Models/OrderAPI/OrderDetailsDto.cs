@@ -1,5 +1,4 @@
-using Mgeek.Services.Orchestrator.Models.ProductAPI;
-
+namespace Mgeek.Services.Orchestrator.Models.OrderAPI;
 public class OrderDetailsDto
 {
     public int Id { get; set; }

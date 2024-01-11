@@ -1,6 +1,3 @@
-using Mgeek.Services.PromocodeAPI.Models;
-using Microsoft.EntityFrameworkCore;
-
 namespace Mgeek.Services.PromocodeAPI.Data;
 
 public class ApplicationDbContext : DbContext

@@ -1,10 +1,3 @@
-using System.Net;
-using System.Text;
-using Mgeek.Frontend.Models;
-using Mgeek.Frontend.Service.IService;
-using Mgeek.Frontend.Utility;
-using Newtonsoft.Json;
-
 namespace Mgeek.Frontend.Service;
 
 public class BaseService : IBaseService

@@ -1,7 +1,3 @@
-using Mgeek.Servcies.AuthAPI.Models;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore;
-
 namespace Mgeek.Servcies.AuthAPI.Data;
 
 public class ApplicationDbContext : IdentityDbContext<ApplicationUser>

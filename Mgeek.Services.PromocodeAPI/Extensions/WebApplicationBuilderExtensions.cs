@@ -1,7 +1,3 @@
-using System.Text;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;
-
 namespace Mgeek.Services.PromocodeAPI.Extensions;
 
 public static class WebApplicationBuilderExtensions

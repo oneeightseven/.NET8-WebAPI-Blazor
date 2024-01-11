@@ -1,12 +1,3 @@
-using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
-using Mgeek.Frontend.Models.AuthAPI;
-using Mgeek.Frontend.Service.IService;
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
-
 namespace Mgeek.Frontend.Controllers;
 
 public class AuthController : Controller

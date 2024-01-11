@@ -1,6 +1,3 @@
-using Mgeek.Frontend.Models;
-using Mgeek.Frontend.Models.PromoAPI;
-
 namespace Mgeek.Frontend.Service.IService;
 
 public interface IPromoService

@@ -1,14 +1,3 @@
-using AutoMapper;
-using Mgeek.Services.ShoppingCartAPI.Data;
-using Mgeek.Services.ShoppingCartAPI.Extensions;
-using Mgeek.Services.ShoppingCartAPI.Models;
-using Mgeek.Services.ShoppingCartAPI.Models.Dto;
-using Mgeek.Services.ShoppingCartAPI.Service.IService;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Serilog;
-
 namespace Mgeek.Services.ShoppingCartAPI.Controllers;
 
 [Route("api/CartApi")]

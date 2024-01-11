@@ -1,12 +1,4 @@
-using System.Text;
-using Mgeek.Services.Orchestrator.Models;
-using Mgeek.Services.Orchestrator.Models.OrderAPI;
-using Mgeek.Services.Orchestrator.Models.ProductAPI;
-using Mgeek.Services.Orchestrator.Service.IService;
 using Newtonsoft.Json;
-using RabbitMQ.Client;
-using RabbitMQ.Client.Events;
-using Serilog;
 
 namespace Mgeek.Services.Orchestrator;
 

@@ -1,7 +1,3 @@
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using Mgeek.Services.OrderAPI.Models.Dto;
-
 namespace Mgeek.Services.OrderAPI.Models;
 
 [Table("OrderDetails")]

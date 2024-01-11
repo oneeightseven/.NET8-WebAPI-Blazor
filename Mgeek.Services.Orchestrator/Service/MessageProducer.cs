@@ -1,9 +1,3 @@
-using System.Text;
-using System.Text.Json;
-using Mgeek.Services.Orchestrator.Models;
-using Mgeek.Services.Orchestrator.Service.IService;
-using RabbitMQ.Client;
-
 namespace Mgeek.Services.Orchestrator.Service;
 
 public class MessageProducer : IMessageProducer

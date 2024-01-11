@@ -1,13 +1,3 @@
-using AutoMapper;
-using Mgeek.Services.PromocodeAPI.Data;
-using Mgeek.Services.PromocodeAPI.Models;
-using Mgeek.Services.PromocodeAPI.Models.Dto;
-using Mgeek.Services.PromocodeAPI.Service.IService;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Serilog;
-
 namespace Mgeek.Services.PromocodeAPI.Controllers;
 
 [Route("api/PromocodeApi")]

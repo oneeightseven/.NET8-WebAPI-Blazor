@@ -1,11 +1,3 @@
-using System.IdentityModel.Tokens.Jwt;
-using Mgeek.Frontend.Models.CartAPI;
-using Mgeek.Frontend.Service.IService;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
-using NToastNotify;
-
 namespace Mgeek.Frontend.Controllers;
 
 [Authorize]

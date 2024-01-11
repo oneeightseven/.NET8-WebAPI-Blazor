@@ -178,3 +178,4 @@
 /home/oneeightseven/Mgeek/Mgeek.Services.ShoppingCartAPI/bin/Debug/net8.0/StackExchange.Redis.dll
 /home/oneeightseven/Mgeek/Mgeek.Services.ShoppingCartAPI/bin/Debug/net8.0/logs/ConfigLog-20231102.json
 /home/oneeightseven/Mgeek/Mgeek.Services.ShoppingCartAPI/obj/Debug/net8.0/Mgeek.Services.ShoppingCartAPI.sourcelink.json
+/home/oneeightseven/Mgeek/Mgeek.Services.ShoppingCartAPI/bin/Debug/net8.0/logs/ConfigLog-20240111.json

@@ -1,5 +1,3 @@
-using Mgeek.Frontend.Models;
-
 namespace Mgeek.Frontend.Service.IService;
 
 public interface IBaseService

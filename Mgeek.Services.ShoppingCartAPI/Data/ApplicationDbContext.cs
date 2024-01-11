@@ -1,6 +1,3 @@
-using Mgeek.Services.ShoppingCartAPI.Models;
-using Microsoft.EntityFrameworkCore;
-
 namespace Mgeek.Services.ShoppingCartAPI.Data;
 
 public class ApplicationDbContext : DbContext

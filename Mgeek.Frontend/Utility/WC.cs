@@ -1,5 +1,4 @@
 namespace Mgeek.Frontend.Utility;
-
 public class WC
 {
     public const string RoleAdmin = "ADMIN";

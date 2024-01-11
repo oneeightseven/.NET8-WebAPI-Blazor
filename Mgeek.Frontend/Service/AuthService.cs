@@ -1,10 +1,4 @@
-using Mgeek.Frontend.Models;
-using Mgeek.Frontend.Models.AuthAPI;
-using Mgeek.Frontend.Service.IService;
-using Mgeek.Frontend.Utility;
-
 namespace Mgeek.Frontend.Service;
-
 public class AuthService : IAuthService
 {
     private readonly IBaseService _baseService;

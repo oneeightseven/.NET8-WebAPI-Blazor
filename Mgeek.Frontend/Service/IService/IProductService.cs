@@ -1,6 +1,3 @@
-using Mgeek.Frontend.Models;
-using Mgeek.Frontend.Models.ProductAPI;
-
 namespace Mgeek.Frontend.Service.IService;
 
 public interface IProductService
