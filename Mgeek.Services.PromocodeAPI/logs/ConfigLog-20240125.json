@@ -1,0 +1,11 @@
+2024-01-25 00:18:41.328 +08:00 [INF] Promo-code {"Id":1002,"Name":"OFF","SumDiscount":10000,"Remainder":98,"MinAmount":3000,"$type":"Promocode"} successfully decremented
+2024-01-25 16:43:28.792 +08:00 [WRN] Promo code not found with name Test
+2024-01-25 16:46:38.802 +08:00 [INF] Promo-code {"Id":1002,"Name":"OFF","SumDiscount":10000,"Remainder":97,"MinAmount":3000,"$type":"Promocode"} successfully decremented
+2024-01-25 16:48:39.586 +08:00 [INF] Promo-code {"Id":1002,"Name":"OFF","SumDiscount":10000,"Remainder":96,"MinAmount":3000,"$type":"Promocode"} successfully decremented
+2024-01-25 16:52:07.112 +08:00 [INF] Promo-code {"Id":1002,"Name":"OFF","SumDiscount":10000,"Remainder":95,"MinAmount":3000,"$type":"Promocode"} successfully decremented
+2024-01-25 16:55:49.590 +08:00 [WRN] Promo-code {"Id":1002,"Name":"OFF","SumDiscount":10000,"Remainder":0,"MinAmount":3000,"$type":"Promocode"} ended
+2024-01-25 16:56:52.944 +08:00 [WRN] Promo code not found with name asd
+2024-01-25 16:57:35.504 +08:00 [WRN] Promo-code {"Id":1002,"Name":"OFF","SumDiscount":10000,"Remainder":0,"MinAmount":3000,"$type":"Promocode"} ended
+2024-01-25 17:07:33.657 +08:00 [INF] Promo-code {"Id":1002,"Name":"OFF","SumDiscount":10000,"Remainder":6,"MinAmount":3000,"$type":"Promocode"} successfully updated
+2024-01-25 17:08:11.579 +08:00 [INF] Promo-code {"Id":1002,"Name":"OFF","SumDiscount":10000,"Remainder":10,"MinAmount":3000,"$type":"Promocode"} successfully updated
+2024-01-25 17:09:53.322 +08:00 [INF] Promo-code {"Id":1002,"Name":"OFF","SumDiscount":10000,"Remainder":12,"MinAmount":3000,"$type":"Promocode"} successfully updated

@@ -1,3 +1,7 @@
+using System.Text;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+
 namespace Mgeek.Services.ProductAPI.Extensions;
 
 public static class WebApplicationBuilderExtensions

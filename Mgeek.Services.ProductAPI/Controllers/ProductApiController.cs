@@ -1,3 +1,13 @@
+using AutoMapper;
+using Mgeek.Services.ProductAPI.Data;
+using Mgeek.Services.ProductAPI.Models;
+using Mgeek.Services.ProductAPI.Models.Dto;
+using Mgeek.Services.ProductAPI.Services.IServices;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Serilog;
+
 namespace Mgeek.Services.ProductAPI.Controllers;
 
 [Route("api/ProductApi")]
@@ -51,24 +61,25 @@ public class ProductApiController : ControllerBase
     {
         try
         {
-            var cache = _cache.Get<IEnumerable<ProductDto>>("products"); 
+            var cache = _cache.Get<IEnumerable<ProductDto>>("products");
             if (cache != null)
             {
-                _response.Result = cache; 
+                _response.Result = cache;
             }
             else
             {
                 IEnumerable<Product> products = await _context.Products.AsNoTracking().ToListAsync();
                 _response.Result = _mapper.Map<IEnumerable<ProductDto>>(products);
-                _cache.Set("products", _response.Result, DateTimeOffset.Now.AddMinutes(20)); 
+                _cache.Set("products", _response.Result, DateTimeOffset.Now.AddMinutes(20));
             }
         }
-        catch (Exception ex) 
+        catch (Exception ex)
         {
             _response.IsSuccess = false;
             _response.Message = ex.Message;
-            Log.Error("{Exception}", ex.Message); 
+            Log.Error("{Exception}", ex.Message);
         }
+
         return _response;
     }
 
@@ -116,7 +127,7 @@ public class ProductApiController : ControllerBase
                 var stock = await _context.Stocks.AsNoTracking()
                     .Include(x => x.Product)
                     .FirstOrDefaultAsync(x => x.ProductId == productId);
-                
+
                 if (stock != null)
                 {
                     _response.Result = _mapper.Map<StockDto>(stock);
@@ -145,13 +156,14 @@ public class ProductApiController : ControllerBase
     {
         try
         {
-            var stock = await _context.Stocks.Include(x => x.Product).FirstOrDefaultAsync(x => x.ProductId == productId);
+            var stock = await _context.Stocks.Include(x => x.Product)
+                .FirstOrDefaultAsync(x => x.ProductId == productId);
             if (stock != null)
             {
                 stock.Amount = amount;
                 _context.Stocks.Update(stock);
                 await _context.SaveChangesAsync();
-                
+
                 _cache.Remove("stocks");
                 _cache.Remove($"stock{productId}");
             }
@@ -167,6 +179,7 @@ public class ProductApiController : ControllerBase
             _response.Message = ex.Message;
             Log.Error("{Exception}", ex.Message);
         }
+
         return _response;
     }
 
@@ -177,7 +190,8 @@ public class ProductApiController : ControllerBase
     {
         foreach (var orderProduct in stockDtos)
         {
-            var stock = await _context.Stocks.Include(x => x.Product).FirstOrDefaultAsync(x => x.ProductId == orderProduct.ProductId);
+            var stock = await _context.Stocks.Include(x => x.Product)
+                .FirstOrDefaultAsync(x => x.ProductId == orderProduct.ProductId);
             if (stock!.Amount >= orderProduct.Amount)
             {
                 stock.Amount -= orderProduct.Amount;
@@ -192,6 +206,7 @@ public class ProductApiController : ControllerBase
                 return _response;
             }
         }
+
         await _context.SaveChangesAsync();
         _cache.Remove("stocks");
 
@@ -206,35 +221,27 @@ public class ProductApiController : ControllerBase
     {
         try
         {
-            var cache = _cache.Get<ProductDto>($"product{id}"); 
-            if (cache != null)
+            var product = await _context.Products.FirstOrDefaultAsync(x => x.Id == id);
+            if (product != null)
             {
-                _response.Result = cache; 
+                _response.Result = _mapper.Map<ProductDto>(product!);
             }
-            else 
+            else
             {
-                var product = await _context.Products.AsNoTracking().FirstOrDefaultAsync(x => x.Id == id); 
-                if (product != null) 
-                {
-                    _response.Result = product; 
-                    _cache.Set($"product{id}", product, DateTimeOffset.Now.AddMinutes(20)); 
-                }
-                else
-                {
-                    _response.IsSuccess = false;  
-                    _response.Message = "Product not found";  
-                }
+                _response.IsSuccess = false;
+                _response.Message = "Product not found";
             }
         }
-        catch (Exception ex) 
+        catch (Exception ex)
         {
             _response.IsSuccess = false;
             _response.Message = ex.Message;
             Log.Information("{ResponseMessage}", _response.Message);
         }
+
         return _response;
     }
-    
+
     [HttpPost]
     [Authorize(Roles = "ADMIN")]
     [Route("Smartphone")]
@@ -247,18 +254,18 @@ public class ProductApiController : ControllerBase
             {
                 _context.Smartphones.Update(smartphone);
                 Log.Information("Smartphone with id: {SmartphoneId} successfully updated", smartphone.Id);
-                _cache.Remove($"product{smartphone.Id}");
                 _cache.Remove($"stock{smartphone.Id}");
+                _cache.Remove(($"'products"));
             }
             else
             {
                 await _context.Smartphones.AddAsync(smartphone);
+                await CreateStock(smartphone);
                 Log.Information("A new smartphone has been added to the table");
             }
-            
+
             await _context.SaveChangesAsync();
             _response.Result = "Smartphone added successfully";
-            _cache.Remove("products");
             _cache.Remove("stocks");
         }
         catch (Exception ex)
@@ -283,14 +290,16 @@ public class ProductApiController : ControllerBase
             {
                 _context.Laptops.Update(laptop);
                 Log.Information("Laptop with id: {LaptopId} successfully updated", laptop.Id);
-                _cache.Remove($"product{laptop.Id}");
                 _cache.Remove($"stock{laptop.Id}");
+                _cache.Remove(($"'products"));
             }
             else
             {
                 await _context.Laptops.AddAsync(laptop);
+                await CreateStock(laptop);
                 Log.Information("A new laptop has been added to the database");
             }
+
             await _context.SaveChangesAsync();
             _response.Message = "Laptop added successfully";
             _cache.Remove("products");
@@ -337,6 +346,16 @@ public class ProductApiController : ControllerBase
             _response.Message = ex.Message;
             Log.Information("{ExMessage}", ex.Message);
         }
+
         return _response;
+    }
+
+    private async Task CreateStock(Product product)
+    {
+        await _context.Stocks.AddAsync(new Stock()
+        {
+            Product = product,
+            Amount = 0
+        });
     }
 }

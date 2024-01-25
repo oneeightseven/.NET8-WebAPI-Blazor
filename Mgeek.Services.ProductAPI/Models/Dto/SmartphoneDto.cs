@@ -1,3 +1,4 @@
+
 namespace Mgeek.Services.ProductAPI.Models.Dto;
 
 public class SmartphoneDto : ProductDto

@@ -1,3 +1,6 @@
+using Mgeek.Services.ProductAPI.Models;
+using Microsoft.EntityFrameworkCore;
+
 namespace Mgeek.Services.ProductAPI.Data;
 
 public class ApplicationDbContext : DbContext

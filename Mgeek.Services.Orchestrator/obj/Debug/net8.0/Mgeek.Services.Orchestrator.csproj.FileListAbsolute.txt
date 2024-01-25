@@ -87,3 +87,5 @@
 /home/oneeightseven/Mgeek/Mgeek.Services.Orchestrator/bin/Debug/net8.0/logs/ConfigLog-20240109.json
 /home/oneeightseven/Mgeek/Mgeek.Services.Orchestrator/bin/Debug/net8.0/logs/ConfigLog-20240110.json
 /home/oneeightseven/Mgeek/Mgeek.Services.Orchestrator/bin/Debug/net8.0/logs/ConfigLog-20240111.json
+/home/oneeightseven/Mgeek/Mgeek.Services.Orchestrator/bin/Debug/net8.0/logs/ConfigLog-20240120.json
+/home/oneeightseven/Mgeek/Mgeek.Services.Orchestrator/bin/Debug/net8.0/logs/ConfigLog-20240125.json

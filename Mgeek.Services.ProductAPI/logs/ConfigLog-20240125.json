@@ -1,0 +1,19 @@
+2024-01-25 00:18:41.472 +08:00 [INF] All products decrease
+2024-01-25 01:09:01.869 +08:00 [INF] ERR invalid expire time in 'psetex' command
+2024-01-25 02:58:04.989 +08:00 [INF] Value cannot be null. (Parameter 'json')
+2024-01-25 02:58:17.373 +08:00 [INF] Value cannot be null. (Parameter 'json')
+2024-01-25 02:58:23.508 +08:00 [INF] Value cannot be null. (Parameter 'json')
+2024-01-25 15:51:27.330 +08:00 [INF] A new laptop has been added to the database
+2024-01-25 15:52:38.310 +08:00 [INF] Laptop with id: 406 successfully updated
+2024-01-25 15:52:45.564 +08:00 [ERR] Product with 406 not found
+2024-01-25 16:02:07.137 +08:00 [INF] Laptop with id: 207 successfully updated
+2024-01-25 16:26:54.357 +08:00 [INF] A new smartphone has been added to the table
+2024-01-25 16:35:25.142 +08:00 [INF] Laptop with id: 107 successfully updated
+2024-01-25 16:39:53.805 +08:00 [INF] Laptop with id: 107 successfully updated
+2024-01-25 16:40:24.672 +08:00 [INF] Laptop with id: 2 successfully updated
+2024-01-25 16:40:45.741 +08:00 [INF] Laptop with id: 406 successfully updated
+2024-01-25 16:46:38.860 +08:00 [INF] All products decrease
+2024-01-25 16:48:39.608 +08:00 [INF] All products decrease
+2024-01-25 16:52:07.266 +08:00 [INF] All products decrease
+2024-01-25 17:00:47.574 +08:00 [INF] Some of the goods are not enough in stock
+2024-01-25 17:08:26.506 +08:00 [INF] Smartphone with id: 407 successfully updated

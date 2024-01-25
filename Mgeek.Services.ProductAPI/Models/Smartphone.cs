@@ -1,3 +1,6 @@
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace Mgeek.Services.ProductAPI.Models;
 
 [Table("Smartphones")]

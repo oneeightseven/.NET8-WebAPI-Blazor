@@ -1,0 +1,4 @@
+2024-01-25 00:18:41.328 +08:00 [INF] Promo-code {"Id":1002,"Name":"OFF","SumDiscount":10000,"Remainder":98,"MinAmount":3000,"$type":"Promocode"} successfully decremented
+2024-01-25 16:43:28.792 +08:00 [WRN] Promo code not found with name Test
+2024-01-25 16:46:38.802 +08:00 [INF] Promo-code {"Id":1002,"Name":"OFF","SumDiscount":10000,"Remainder":97,"MinAmount":3000,"$type":"Promocode"} successfully decremented
+2024-01-25 16:48:39.586 +08:00 [INF] Promo-code {"Id":1002,"Name":"OFF","SumDiscount":10000,"Remainder":96,"MinAmount":3000,"$type":"Promocode"} successfully decremented
