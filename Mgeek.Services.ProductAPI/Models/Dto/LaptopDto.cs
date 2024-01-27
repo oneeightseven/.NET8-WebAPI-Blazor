@@ -1,5 +1,3 @@
-namespace Mgeek.Services.ProductAPI.Models.Dto;
-
 public class LaptopDto : ProductDto
 {
     public int Ram { get; set; }

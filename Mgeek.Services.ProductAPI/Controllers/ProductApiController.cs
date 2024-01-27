@@ -1,13 +1,3 @@
-using AutoMapper;
-using Mgeek.Services.ProductAPI.Data;
-using Mgeek.Services.ProductAPI.Models;
-using Mgeek.Services.ProductAPI.Models.Dto;
-using Mgeek.Services.ProductAPI.Services.IServices;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Serilog;
-
 namespace Mgeek.Services.ProductAPI.Controllers;
 
 [Route("api/ProductApi")]

@@ -29,6 +29,10 @@
 
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="logs\" />
+    </ItemGroup>
+
 
 
 

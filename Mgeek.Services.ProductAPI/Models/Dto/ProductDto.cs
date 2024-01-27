@@ -1,9 +1,5 @@
-using System.Text.Json.Serialization;
-
 namespace Mgeek.Services.ProductAPI.Models.Dto;
 
-[JsonDerivedType(typeof(SmartphoneDto))]
-[JsonDerivedType(typeof(LaptopDto))]
 public class ProductDto
 {
     public int Id { get; set; }

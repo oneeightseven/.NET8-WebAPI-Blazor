@@ -1,12 +1,3 @@
-using AutoMapper;
-using Mgeek.Services.ProductAPI;
-using Mgeek.Services.ProductAPI.Data;
-using Mgeek.Services.ProductAPI.Extensions;
-using Mgeek.Services.ProductAPI.Services;
-using Mgeek.Services.ProductAPI.Services.IServices;
-using Microsoft.EntityFrameworkCore;
-using Serilog;
-
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>

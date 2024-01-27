@@ -1,7 +1,3 @@
-using AutoMapper;
-using Mgeek.Services.ProductAPI.Models;
-using Mgeek.Services.ProductAPI.Models.Dto;
-
 namespace Mgeek.Services.ProductAPI;
 public class MappingConfig
 {
