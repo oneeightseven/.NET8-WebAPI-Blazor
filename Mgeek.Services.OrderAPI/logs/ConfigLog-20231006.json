@@ -1,5 +1,0 @@
-2023-10-06 16:49:43.009 +08:00 [INF] Test2
-2023-10-06 17:07:50.253 +08:00 [INF] Order listened to => {"OrderHeaderDto":{"Id":0,"UserId":"e859fa1f-516c-4c7e-8b56-89f967ae6b1e","OrderDate":"2023-10-06T17:07:49.7029478+08:00","Sum":144990.0,"Name":null,"Surname":"Volkov","Address":null,"Promocode":"OFF","NumberPhone":null,"Status":"Order processed","$type":"OrderHeaderDto"},"OrderDetailsDto":[{"Id":0,"ProductId":2,"ProductDto":null,"Amount":1,"$type":"OrderDetailsDto"}],"$type":"OrderDto"}
-2023-10-06 17:07:51.337 +08:00 [INF] Order header => {"Id":9021,"UserId":"e859fa1f-516c-4c7e-8b56-89f967ae6b1e","OrderDate":"2023-10-06T17:07:49.7029478+08:00","Sum":144990.0,"Name":null,"Surname":"Volkov","Address":null,"Promocode":"OFF","NumberPhone":null,"Status":"Order processed","$type":"OrderHeader"} added in the database
-2023-10-06 17:07:51.536 +08:00 [INF] Order detail => {"Id":0,"OrderHeaderId":9021,"OrderHeader":null,"ProductId":2,"ProductDto":null,"Amount":1,"$type":"OrderDetails"} added in the database
-2023-10-06 17:10:32.860 +08:00 [INF] Order 9021 successfully deleted

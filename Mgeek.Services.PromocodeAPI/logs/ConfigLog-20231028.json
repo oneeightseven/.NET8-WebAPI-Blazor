@@ -1,5 +1,0 @@
-2023-10-28 12:28:04.586 +08:00 [INF] Promo-code {"Id":1002,"Name":"OFF","SumDiscount":10000,"Remainder":1227,"MinAmount":3000,"$type":"Promocode"} successfully decremented
-2023-10-28 12:31:16.951 +08:00 [INF] Promo-code {"Id":1002,"Name":"OFF","SumDiscount":10000,"Remainder":1226,"MinAmount":3000,"$type":"Promocode"} successfully decremented
-2023-10-28 13:00:16.100 +08:00 [INF] Promo-code {"Id":1002,"Name":"OFF","SumDiscount":10000,"Remainder":1225,"MinAmount":3000,"$type":"Promocode"} successfully decremented
-2023-10-28 13:12:31.891 +08:00 [INF] Promo-code {"Id":1002,"Name":"OFF","SumDiscount":10000,"Remainder":1224,"MinAmount":3000,"$type":"Promocode"} successfully decremented
-2023-10-28 19:51:42.894 +08:00 [INF] Promo-code {"Id":1002,"Name":"OFF","SumDiscount":10000,"Remainder":1223,"MinAmount":3000,"$type":"Promocode"} successfully decremented
